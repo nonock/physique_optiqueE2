@@ -107,7 +107,7 @@ $\rightarrow$ $dL$ est donc la distance qu'aurait parcouru la lumière dans le v
 
 > Entre deux points $A$ et $B$ atteinds par la lumière, le chemin optique le long du trajet suivi par la lumière est minimal.
 
-**Conséquence immédiate : **
+**Conséquence immédiate :**
 
 * Dans un milieu homogène ($n = \text{constante}$, la lumière se propage en ligne droite. 
 
@@ -167,7 +167,7 @@ En pratique, on peut obtenir un stigmatisme approché dans les conditions de Gau
 
 L'approximation de Gauss est appliquable à un système centré pour des rayons peu inclinés sur l'axe optique et s'écartant peu de celui-ci. Ces rayons sont dits paraxiaux.
 
-**Conditions de Gauss : **
+**Conditions de Gauss :**
 
 * Système optique centré
 * Rayons paraxiaux
