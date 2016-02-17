@@ -26,26 +26,22 @@ Au fil de l'histoire, les physiciens ont représentés ces phénomènes sous for
 
 ## Les sources
 
-* Les lampes à incandescence $\rightarrow$ ex : lampe halogène (lampe halogène 
-  à incandescence)
-
-$\rightarrow$ fonctionnement : filament réfractaire porté à 2500°C en tungstène 
-  (métal).
+* Les lampes à incandescence 
+    * ex : lampe halogène (lampe halogène à incandescence)
+    * fonctionnement : filament réfractaire porté à 2500°C en 
+      tungstène (métal).
 
 * Les lampes à décharges
-	* Haute pression
-	* Basse pression
-
-	$\rightarrow$ La lumière est issue d'une décharge électrique dans une vapeur 
-    métallique (Na, Hg, ...) ou un gaz rare (Ar, Xe, ...)
-
-	$\rightarrow$ Spectre de raies quasi monochromatique (la longueur spectrale 
-    $\Delta \lambda \approx 1\text{nm}$).
+  	* Haute pression
+  	* Basse pression
+        * La lumière est issue d'une décharge électrique dans une vapeur 
+          métallique (Na, Hg, ...) ou un gaz rare (Ar, Xe, ...)
+        * Spectre de raies quasi monochromatique (la longueur spectrale 
+          $\Delta \lambda \approx 1\text{nm}$).
 
 * Le LASER (Light Amplification of Stimulated Emission of Radiation)
-
-	$\rightarrow$ Produit une lumière cohérente spatialement et temporellement 
-    (la longueur spectrale $\Delta \lambda < 1 \text{pm}$).
+    * Produit une lumière cohérente spatialement et temporellement 
+      (la longueur spectrale $\Delta \lambda < 1 \text{pm}$).
 
 \newpage
 
@@ -85,7 +81,7 @@ $\rightarrow$ le vide est un milieu non dispersif.
 **Milieu isotrope :** ses propriétés vectorielles sont les mêmes dans toutes les 
   directions du milieu.
 
-Un matériau non isotrope est dit anisotrope. ex : quartz
+Un matériau non isotrope est dit anisotrope. ex : quartz.
 
 **Milieu transparent :** l'indice de réfraction est réel et $\geq 1$
 
@@ -94,16 +90,15 @@ Un matériau non isotrope est dit anisotrope. ex : quartz
 
 Pour un rayonnement visible dans un milieu transparent, on a une loi empirique 
   (issue de l'expérimentation) qui relie $n$ à $\lambda$.
-$\rightarrow$ la loi de Cauchy $n = A + \dfrac{B}{\lambda^2} + 
-  \dfrac{C}{\lambda^4} + ...$
-
-$A, B, C$ sont des constantes
+  
+$\rightarrow \text{ la loi de Cauchy } n = A + \dfrac{B}{\lambda^2} + 
+  \dfrac{C}{\lambda^4} + ... \text{ avec } A, B, C \text{ des constantes }$
 
 # Optique géométrique
 
 **L'optique géométrique :** introduit la notion de rayon lumineux. Le rayon 
-lumineux est le trajet de la lumière pour aller d'un point à un autre. Le 
-principe de Fermat est à la base de l'optique géométrique.
+  lumineux est le trajet de la lumière pour aller d'un point à un autre. Le 
+  principe de Fermat est à la base de l'optique géométrique.
 
 ## Chemin optique
 
@@ -111,7 +106,7 @@ Chemin optique élémentaire (élément différentiel)
 
 $dL = n.ds \rightarrow dL = \dfrac{c}{v}.ds = c.dt$
 
-$dt$ le temps de parcours de la lumière dans le milieu considéré/
+$dt$ le temps de parcours de la lumière dans le milieu considéré
 
 $\rightarrow$ $dL$ est donc la distance qu'aurait parcouru la lumière dans le 
   vide pendant le temps $dt$ dans le milieu considéré.
@@ -134,7 +129,7 @@ $$= n \int^{B}_{A} ds$$
 
 $$= n \overline{AB}$$
 
-Or $L$ doit être minimal $\rightarrow$ $L = n AB$
+Or $L$ doit être minimal $\Rightarrow$ $L = n AB$
 
 * Le trajet suivi par la lumière est indépendant des sens de parcours (principe 
   de retour inverse de la lumière).

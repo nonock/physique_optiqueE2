@@ -48,10 +48,10 @@ $$\nu_0 \text{ : fréquence centrale d'oscillation}$$
 $$\tau_c \text{ : temps de cohérence}$$
 
 La largeur totale à mi hauteur définie comme étant la largeur de bande
-$\Delta \nu_{1 \over 2}$ est telle que l'intensité spectrale $I(\nu) \geq 
-{A \over 2}$
+$\Delta \nu_{1/2}$ est telle que l'intensité spectrale $I(\nu) \geq 
+\dfrac{A}{2}$
 
-$$\Delta \nu_{1 \over 2} = \dfrac{1}{\pi \tau_c}$$
+$$\Delta \nu_{1/2} = \dfrac{1}{\pi \tau_c}$$
 
 Cette forme de distribution est attribuée aux collisions entre atomes de la
   source, collision due à l'agitation thermique. Elle est reliée à la durée
@@ -68,11 +68,11 @@ Cette forme de distribution est attribuée à l'effet Doppler, c'est à dire la
 Le mouvement oscillant des atomes excités s'ammortissant, le profil du champ
 électrique de l'onde émise est de la forme suivante :
 
-$$E(t) = E_0 \exp{\dfrac{-t}{\tau_0}} \cos(2\pi\nu_0 t)$$
+$$E(t) = E_0 e^{\frac{-t}{\tau_0}} \cos(2\pi\nu_0 t)$$
 
 Notation complexe :
 
-$$E(t) = E_0 \exp{\dfrac{-t}{\tau_0}} \exp{j2\pi\nu_0 t}$$
+$$E(t) = E_0 e^{\frac{-t}{\tau_0}} e^{j2\pi\nu_0 t}$$
 
 $\tau_c$ représente la durée caractéristique du mouvement oscillatoire de 
   l'atome pendant laquelle l'amplitude du champ électrique s'ammortit d'un 
@@ -84,8 +84,8 @@ $\tau_c$ représente la durée caractéristique du mouvement oscillatoire de
 
 **Transformée de Fourier pour passer de $E(t) \text { à } E(\nu)$**
 
-$$E(\nu) = \int_{-\inf}^{+\inf} E(t) \exp{-i 2 \pi \mu t} dt$$
-$$E(\nu) = \int_{0}^{+\inf} E(t) \exp{-i 2 \pi \mu t} dt$$
+$$E(\nu) = \int_{-\inf}^{+\inf} E(t) e^{-i 2 \pi \mu t} dt$$
+$$E(\nu) = \int_{0}^{+\inf} E(t) e^{-i 2 \pi \mu t} dt$$
 $$E(\nu) = \dfrac{E_0}{i 2 \pi (\nu - \nu_0) + \frac{1}{\tau_c}}$$
 $$I(\nu) = \dfrac{n E_0^2 \tau_c^2}{4\pi^2 \tau_c^2(\nu - \nu_0^2) + 1}$$
 

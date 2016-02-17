@@ -42,7 +42,7 @@ $$\vec E_0 = \vec E_M \exp{j\phi_0}$$
 
 Le signe identique dans la phase sur $\vec k . \vec r + \omega t$ (ici le
   signe $+$) représente une onde plane dite régressive. Contrairement à la
-  solution exprimée en $\vec k . \vec r - \omega t$ (le signe $-$) qui
+  solution exprimée en $\vec k . \vec r - \omega t$ (ici le signe $-$) qui
   représente une onde plane dite progressive.
 
 **Surface d'onde (ou front d'onde) :** C'est une surface pour laquelle la
