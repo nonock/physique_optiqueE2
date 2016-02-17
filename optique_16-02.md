@@ -13,12 +13,12 @@ Les deux foyers d'une lentille convergente sont réels et les deux foyers d'une
 **Définition :**
 
 On appelle foyer secondaire, les foyers images $F{'}_s$ ou objets $F_s$ reliés
-  à des faisceaux de rayons lumineux parallèles entre eux mais non parallèles à
-  l'axe optique.
+  à des faisceaux de rayons lumineux parallèles entre eux mais non parallèles 
+  à l'axe optique.
 
-L'ensemble des foyers secondaires images (respectivements objets) sont contenus
-  dans le plan appelé plan focal image $\pi'$ (respectivement plan focal objet
-  $\pi$).
+L'ensemble des foyers secondaires images (respectivements objets) sont 
+  contenus dans le plan appelé plan focal image $\pi'$ (respectivement plan 
+  focal objet $\pi$).
 
 Le plan focale image $\pi'$ (respectivement plan focal objet $\pi$) correspond
   au plan perpendiculaire à l'axe optique et passant par le foyer image
@@ -47,8 +47,8 @@ Le signe identique dans la phase sur $\vec k . \vec r + \omega t$ (ici le
 
 **Surface d'onde (ou front d'onde) :** C'est une surface pour laquelle la
   fonction d'onde à la même valeur à un instant $t$ donné, soit $\phi = \text{
-  constante }$. On parle alors de surface équiphase. Le vecteur d'onde $\vec k$
-  est orthogonal à la surface d'onde.
+  constante }$. On parle alors de surface équiphase. Le vecteur d'onde $\vec 
+  k$ est orthogonal à la surface d'onde.
 
 ### Onde sphérique :
 
@@ -57,33 +57,38 @@ Le signe identique dans la phase sur $\vec k . \vec r + \omega t$ (ici le
 $$\vec E = \dfrac{\vec E_0}{r} \exp{j(\omega t \pm kr)}$$
 
 Pour l'onde sphérique, le module de la fonction d'onde doit dépendre de la 
-distance $r$ entre le point de l'espace $M$ et la source $O$.  
-La surface d'onde (ensemble des points avec la même phase) est alors une sphère.
+  distance $r$ entre le point de l'espace $M$ et la source $O$.  
+La surface d'onde (ensemble des points avec la même phase) est alors une  
+  sphère.
 
 Le signe identique dans la phase sur $\omega t  + kr$ (ici le
   signe $+$) représente une onde sphérique qui se propage dans le sens des r 
   décroissants, l'onde converge vers la source. Contrairement à la solution 
-  exprimée en $\omega t - kr$ (le signe $-$) qui représente une onde sphérique 
-  qui se propafe dans le sens des r croissants, l'onde diverge de la source.
+  exprimée en $\omega t - kr$ (le signe $-$) qui représente une onde 
+  sphérique qui se propafe dans le sens des r croissants, l'onde diverge de 
+  la source.
 
 ### Théorème de Malus
 
-Dans un milieu isotrope, les rayons issus d'une même source ponctuelle, appelés 
-  rayons isogènes sont normaux aux surfaces d'ondes.
+Dans un milieu isotrope, les rayons issus d'une même source ponctuelle, 
+  appelés rayons isogènes sont normaux aux surfaces d'ondes.
 
 ### Déphasage le long d'un rayon entre deux surfaces d'onde
 
 Compte tenu des fonctions d'ondes précédentes, le déphasage entre deux points 
 $A$ et $B$ sur la trajectoire d'un rayon à un instant $t$ donné est  :
 
-  $$\Delta \phi = |\phi_A - \phi_B| = |\vec k . \vec{OA} - \vec k . \vec{OB}|$$
-  $$\Delta \phi = |\vec k . \vec{BA}| \text{ avec } ||\vec k|| = \dfrac{\omega}{v} = \dfrac{2\pi}{\lambda}$$
+  $$\Delta \phi = |\phi_A - \phi_B| = |\vec k . \vec{OA} - \vec k . 
+  \vec{OB}|$$
+  $$\Delta \phi = |\vec k . \vec{BA}| \text{ avec } ||\vec k|| = 
+  \dfrac{\omega}{v} = \dfrac{2\pi}{\lambda}$$
   $$\Delta \phi = |\dfrac{2\pi}{\lambda} \vec u . \vec{BA}|$$
   $$\Delta \phi = \dfrac{2\pi}{\lambda_0} L(BA)$$
 
 La différence de marche est donc directement liée à la différence de phase de 
   l'onde lumineuse.  
-Au chemin optique, du à la distance parcourue (ou chemin optique géométrique), 
+Au chemin optique, du à la distance parcourue (ou chemin optique 
+géométrique), 
   il faut ajouter un chemin optique lié à la différence de phase induite par les 
   dioptres rencontrés par le rayon considéré.
 
@@ -114,3 +119,20 @@ En revanche, $\rho_{\\} \text{ et } \rho_{\perp}$ sont négatifs pour un angle
   d'incidence proche de la normale lorsque $n_1 < n_2$. Ainsi, la réflexion sur
   un milieu plus réfringent en incidence quasi-normale produit un déphasage de 
   $\pi$.
+
+
+**Rappel :** Lors de la réflexion d'un champ sans déphasage venant d'un milieu
+  matériel sur un milieu matériel ce champ est réfléchit avec le même sens que 
+  le champs incident.  
+  Dans un métal, $\vec E = \vec 0$
+
+Comme précédemment, le champ électrique $\vec E$ peut être vu comme la somme de
+  deux composantes : $\vec E_{\perp} + \vec E_{//}$.  
+  La réflexion sur un matériel moins réfringent se fait sans déphasage.  
+  Cependant, on observe le changement d'une coordonnée aussi bien pour le 
+  vecteur $\vec k$ que pour le vecteur $\vec E$, soit $z$ si le plan $Oxy$ est 
+  le plan du dioptre et l'axe $Oz$ la normale au plan.  
+  Par rapport au déphasage nul, le déphasage de $\pi$ à la réflexion sur un 
+  métal implique bien le changement des trois coordonnées cartésiennes de $\vec 
+  E$. Mais uniquement de deux coordonnées entre champ incident et champ 
+  réfléchit.
