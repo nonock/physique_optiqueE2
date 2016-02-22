@@ -4,6 +4,8 @@ author: Romain Gille
 date: 16/02/2016
 ...
 
+\newpage
+
 **Remarque :**
 
 Les deux foyers d'une lentille convergente sont réels et les deux foyers d'une
@@ -49,6 +51,8 @@ Le signe identique dans la phase sur $\vec k . \vec r + \omega t$ (ici le
   fonction d'onde à la même valeur à un instant $t$ donné, soit $\phi = \text{
   constante }$. On parle alors de surface équiphase. Le vecteur d'onde $\vec 
   k$ est orthogonal à la surface d'onde.
+
+\newpage
 
 ### Onde sphérique :
 

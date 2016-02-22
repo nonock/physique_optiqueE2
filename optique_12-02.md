@@ -94,6 +94,8 @@ Pour un rayonnement visible dans un milieu transparent, on a une loi empirique
 $\rightarrow \text{ la loi de Cauchy } n = A + \dfrac{B}{\lambda^2} + 
   \dfrac{C}{\lambda^4} + ... \text{ avec } A, B, C \text{ des constantes }$
 
+\newpage
+
 # Optique géométrique
 
 **L'optique géométrique :** introduit la notion de rayon lumineux. Le rayon 

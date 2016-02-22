@@ -4,6 +4,8 @@ author: Romain Gille
 date: 17/02/2016
 ...
 
+\newpage
+
 # Cohérence de la lumière
 
 Le phénomène d'interférence entre deux sources lumineuses nécessite que les 
