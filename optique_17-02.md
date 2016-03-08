@@ -107,7 +107,7 @@ On définie la longueur de tolérence temporelle $L_c$ comme $L_c = c \tau_c$
    |$\lambda (nm)$ | $\tau_c (s)$ | $L_c (m)$ |
    |----------------|--------------|-----------|
    | lampe à vapeur de Hg | $546 nm$ | $10^{-12}$ | $0.3 mm$ |
-   | laser He / Ne | $632 nm$ | $0.7 * 10^{-9}$ | $0.2$|
+   | laser He / Ne | $632 nm$ | $0.7 \times 10^{-9}$ | $0.2$|
    | laser He / Ne (stabilisé) |$632.8 nm$ | $10^{-6}$ | $300m$|
 
 ## Cohérence spatiale
