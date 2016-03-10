@@ -1,8 +1,11 @@
 ---
+
 title: Physique Optique
 author: Romain Gille
 date: 12/02/2016
 ...
+
+\newpage
 
 **Définition :** étude de la lumière, de ses propriétés ainsi que des systèmes 
   qui la produisent ou l'utilisent.
@@ -194,9 +197,9 @@ L'approximation de Gauss est appliquable à un système centré pour des rayons 
 * Rayons paraxiaux
 
 Parmis des systèmes optiques stigmatiques ou stigmatiques approchés, les 
-  lentilles sont des systèmes à foyer par opposition aux systèmes afocaux.
+lentilles sont des systèmes à foyer par opposition aux systèmes afocaux.
 
 Le foyer principal objet $F$ est le point objet sur l'axe optique dont l'image 
-  se trouve à l'infini.
+se trouve à l'infini.
 
 Le foyer principal image $F'$ est l'image d'un point objet situé à l'infini.
