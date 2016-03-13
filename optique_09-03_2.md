@@ -1,5 +1,4 @@
 ---
-
 title : Interférence à deux ondes par division du front d'onde
 author : Romain Gille
 date : 09/03/2016

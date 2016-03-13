@@ -3,6 +3,7 @@ title: Interférence à deux ondes
 author: Romain Gille
 date: 09/03/2016
 ...
+
 \newpage
 
 **On va poser :** $\Phi = \Phi_1 - \Phi_2$

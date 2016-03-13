@@ -1,9 +1,9 @@
 ---
-
 title: Interférence à deux ondes
 author: Romain Gille
 date: 08/03/2016
 ...
+
 \newpage
 
 # Interférences lumineuses
@@ -11,27 +11,27 @@ date: 08/03/2016
 Considérons deux ondes monochromatiques, polarisées rectilignement issus de deux
 sources $S_1$ et $S_2$ ponctuelles. Les ondes sont sphériques, synchrones (même
 $\omega \text{ ou } f$), les champs électriques instantannés en notation
-complexe en un point $M$ de l'espace s'écrivent de la façon suivante :
+complexe en un point $M$ de l'espace s'écrivent de la façon suivante :
 
 $$\vec{E_1} = \dfrac{C_1}{r_1} e^{j(\omega t + kr_1 + \phi_1)} \vec{u_1}$$
 $$\vec{E_2} = \dfrac{C_2}{r_2} e^{j(\omega t + kr_2 + \phi_2)} \vec{u_2}$$
 
-Les $C$ sont des constantes.  
+Les $C$ sont des constantes.
 Les $\phi$ sont les phases instantannées à l'origine des temps et de l'espace,
 c'est-à-dire, aux sources $S_1$ et $S_2$ à l'instant d'émission des trains
 d'ondes.
 
-Pour simplifier la notation, nous posons : $\Phi = kr + \phi$, la phase à
-l'origine des temps.  
+Pour simplifier la notation, nous posons : $\Phi = kr + \phi$, la phase à
+l'origine des temps.
 Ainsi que $A = \dfrac{C}{r}$, les amplitudes à l'origine des signaux.
 
 $$\vec{E_1} = A_1 e^{j \Phi_1} e^{j \omega t} \vec{u_1}$$
 $$\vec{E_2} = A_2 e^{j \Phi_2} e^{j \omega t} \vec{u_2}$$
 $$\vec{E} = (A_1 e^{j \Phi_1} \vec{u_1} + A_2 e^{j \Phi_2} \vec{u_2})
 e^{j\omega t}$$
-$$I = n E E^*\text{ conjugué}$$
+$$I = n E E^*\text{  conjugué }$$
 $$I = n \vec E \vec{E^*} = n (\vec{E_1} + \vec{E_2})(\vec{E^*_1} +
-\vec{E^*_2}) \text{ on considère n = 1}$$
+\vec{E^*_2}) \text{  on considère n = 1 }$$
 $$I = [A_1 e^{j \Phi_1} \vec{u_1} + A_2 e^{j \Phi_2} \vec{u_2}] .
 [A_1 e^{-j \Phi_1} \vec{u_1} + A_2 e^{-j \Phi_2} \vec{u_2}]$$
 $$I = A^2_1 + A^2_2 + A_1 A_2 e^{j(\Phi_1 - \Phi_2)} \vec{u_1} . \vec{u_2} +
@@ -41,7 +41,7 @@ $$I_2 = E_2 E^*_2 = A^2_2$$
 $$I = I_1 + I_2 + \sqrt{I_1 I_2} \cos{\Theta} [e^{j(\Phi_1 - \Phi_2)} +
 e^{j(\Phi_2 - \Phi_1)}]$$
 
-**Relation trigonométrique :** $e^{ja} + e^{-ja} = 2 \cos{a}$
+**Relation trigonométrique :** $e^{ja} + e^{-ja} = 2 \cos{a}$
 
 $$I = I_1 + I_2 + 2 \sqrt{I_1 I_2} \cos{\Phi_1 - \Phi_2} \cos{\Theta}$$
 $$I = I_1 + I_2 + 2 \sqrt{I_1 I_2} \cos{\Theta} \cos{kr_1 + \phi_1 - kr_2 -
@@ -88,7 +88,7 @@ $(S_1 S_2)$ donne un système de franges circulaires. Leur intersection avec des
 plans parallèles à $(S_1 S_2)$ donne des hyperboles qui s'approximent par des
 portions de droites dans la zone d'observation des interférences.
 
-Les interférences entre deux ondes sont possibles si :
+Les interférences entre deux ondes sont possibles si :
 
 * elles ont mêmes $\omega \text{ ou } f$
 * leur différence de phase instantannée ($\phi_1 - \phi_2$) à l'émission des
@@ -119,5 +119,5 @@ faibles, donc $\cos{\Theta} = 1$. On prend $I = I_{moy}$.
 
 $$I = 2 I_0 + 2 I_0 \cos{\Phi_1 - \Phi_2} = 2I_0 (1 + \cos{\Phi_1 - \Phi_2})$$
 
-**Relation trigonométrique :** $1 + \cos{2a} = 2 \cos^2{a}$
+**Relation trigonométrique :** $1 + \cos{2a} = 2 \cos^2{a}$
 $$I = 4 I_0 \cos^2 \dfrac{\Phi_1 - \Phi_2}{2}$$
