@@ -1,6 +1,7 @@
 ---
 title: Physique Optique
 author: Romain Gille
+geometry : margin=1in
 date: 12/02/2016
 ...
 

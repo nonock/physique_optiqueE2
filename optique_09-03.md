@@ -1,6 +1,7 @@
 ---
 title: Interférence à deux ondes
 author: Romain Gille
+geometry : margin=1in
 date: 09/03/2016
 ...
 
