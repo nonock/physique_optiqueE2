@@ -24,7 +24,7 @@ les franges brillantes ont une intensité lumineuse plus élevée.
 L'intensité lumineuse par des fentes fines de longueur $L_f$ peut s'exprimer en
 un point d'observation des interférences par :
 
-$$I = \int\limits_{-L_f \over 2}^{L_f \over 2} 2 \dfrac{I_0}{L_f}(cos \phi + 1) dy$$
-$$I = \int\limits_{-L_f \over 2}^{L_f \over 2} 2 \dfrac{I_0}{L_f}(cos(\dfrac{nxa}{D} \times \dfrac{2\pi}{\lambda_0}) +1) dy$$
+$$I = \int\limits_{-L_f / 2}^{L_f / 2} 2 \dfrac{I_0}{L_f}(cos \phi + 1) dy$$
+$$I = \int\limits_{-L_f / 2}^{L_f / 2} 2 \dfrac{I_0}{L_f}(cos(\dfrac{nxa}{D} \times \dfrac{2\pi}{\lambda_0}) +1) dy$$
 $$I = 2 \dfrac{I_0}{L_f}(cos(\dfrac{nxa}{D} \times \dfrac{2\pi}{\lambda_0}) +1)L_f$$
 $$I = 2 I_0(cos(\dfrac{nxa}{D} \times \dfrac{2\pi}{\lambda_0}) +1)$$
