@@ -109,10 +109,10 @@ $$\rho_1, \tau_1 . \tau_2 . \rho_2, \tau_1 . \tau_2 . {\rho_2}^3,
 \tau_1 . \tau_2 . {\rho_2}^5$$
 
 En appliquant les relations réécrites :
-$$-\rho, (1 - \rho^2)\rho, (A - \rho^2)\rho^3 \text{ et }(1 - \rho^2) \rho^5$$
+$$-\rho, (1 - \rho^2)\rho, (1 - \rho^2)\rho^3 \text{ et }(1 - \rho^2) \rho^5$$
 
 De la même façon, les amplitudes des quatres premières ondes transmises sont :
-$$\tau_1 . \tau_2, \tau_1 . \tau_2 . {\rho_2}^2, \tau1 . \tau_2 . {\rho}^4,
+$$\tau_1 . \tau_2, \tau_1 . \tau_2 . {\rho_2}^2, \tau_1 . \tau_2 . {\rho}^4,
 \tau_1 . \tau_2 . {\rho_2}^6$$
 $$\text{soit }(1 - \rho^2), (1 - \rho^2)\rho^2, (1 - \rho^2) \rho^4,
 (1 - \rho^2) \rho^6$$
