@@ -9,3 +9,7 @@ pandoc optique_09-03_2.md optique_16-03.md optique_22-03.md optique_29-03.md -o 
 
 echo "Création de interference_a_deux_ondes_par_division_d_amplitude"
 pandoc optique_29-03_2.md optique_31-03.md optique_05-04.md optique_06-04.md -o courspdf/interference_a_deux_ondes_par_division_d_amplitude.pdf
+
+echo "Création de interference_multiples"
+pandoc optique_03-05.md -o courspdf/interference_dondes_multiples.pdf
+ 
