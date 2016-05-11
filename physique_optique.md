@@ -14,14 +14,14 @@ date: 12/02/2016
 **Spectre visible :** souvent associé à la lumière, environ entre 400 nm et 750
   nm.
 
-Les propriétés de la lumière se manifeste par des phénomènes physique
+Les propriétés de la lumière se manifestent par des phénomènes physique
   différents : couleur d'un objet, polarisation électrique, effet
   photoélectrique et le chemin d'un rayon lumineux.
 
 Au fil de l'histoire, les physiciens ont représentés ces phénomènes sous forme
   de modèles :
 
-* Optique géométrique $\rightarrow$ rayon lumineux (réflection, réfraction à la
+* Optique géométrique $\rightarrow$ rayon lumineux (réflexion, réfraction à la
   surface de dioptres : miroirs, lentilles)
 * Optique ondulatoire $\rightarrow$ onde : vibration lumineuse dans l'espace
   (diffraction et interférence)
@@ -32,21 +32,20 @@ Au fil de l'histoire, les physiciens ont représentés ces phénomènes sous for
 ## Les sources
 
 * Les lampes à incandescence
-  * ex : lampe halogène (lampe halogène à incandescence)
-  * fonctionnement : filament réfractaire porté à 2500°C en
-      tungstène (métal).
+    * ex : lampe halogène (lampe halogène à incandescence)
+    * fonctionnement : filament réfractaire en tungstène (métal) porté à 2500°C.
 
 * Les lampes à décharges
-  * Haute pression
-  * Basse pression
-    * La lumière est issue d'une décharge électrique dans une vapeur
-      métallique (Na, Hg, ...) ou un gaz rare (Ar, Xe, ...)
-    * Spectre de raies quasi monochromatique (la longueur spectrale
-      $\Delta \lambda \approx 1\text{nm}$).
+    * Haute pression
+    * Basse pression
+        * La lumière est issue d'une décharge électrique dans une vapeur
+          métallique (Na, Hg, ...) ou un gaz rare (Ar, Xe, ...)
+        * Spectre de raies quasi monochromatique (la longueur spectrale
+          $\Delta \lambda \approx 1\text{nm}$).
 
 * Le LASER (Light Amplification of Stimulated Emission of Radiation)
-  * Produit une lumière cohérente spatialement et temporellement
-   (la longueur spectrale $\Delta \lambda < 1 \text{pm}$).
+    * Produit une lumière cohérente spatialement et temporellement
+    (la longueur spectrale $\Delta \lambda < 1 \text{pm}$).
 
 \newpage
 
@@ -98,8 +97,8 @@ L'indice de réfraction est réel et $\geq 1$
 
 ### Milieu dispersif
 
-L'indice de réfraction et la vitesse de la lumière dans le milieu dépendent du
-$\lambda$ (et du $f$) de l'onde.
+L'indice de réfraction et la vitesse de la lumière dans le milieu dépendent de
+$\lambda$ (et de $f$) de l'onde.
 
 Pour un rayonnement visible dans un milieu transparent, on a une loi empirique
   (issue de l'expérimentation) qui relie $n$ à $\lambda$.
@@ -119,7 +118,7 @@ $\rightarrow \text{ la loi de Cauchy } n = A + \dfrac{B}{\lambda^2} +
 
 Chemin optique élémentaire (élément différentiel)
 
-$dL = n.ds \rightarrow dL = \dfrac{c}{v}.ds = c.dt$
+$$dL = n.ds \rightarrow dL = \dfrac{c}{v}.ds = c.dt$$
 
 $dt$ le temps de parcours de la lumière dans le milieu considéré
 
@@ -130,7 +129,7 @@ $\rightarrow$ $dL$ est donc la distance qu'aurait parcouru la lumière dans le
 
 ### Énoncé
 
-> Entre deux points $A$ et $B$ atteinds par la lumière, le chemin optique le
+> Entre deux points $A$ et $B$ atteints par la lumière, le chemin optique le
 > long du trajet suivi par la lumière est minimal.
 
 ### Conséquence immédiate
@@ -138,11 +137,7 @@ $\rightarrow$ $dL$ est donc la distance qu'aurait parcouru la lumière dans le
 * Dans un milieu homogène ($n = \text{constante}$, la lumière se propage en
   ligne droite.)
 
-$$L = (AB) = [AB] = \int^{B}_{A} n.ds$$
-
-$$= n \int^{B}_{A} ds$$
-
-$$= n \overline{AB}$$
+$$L = (AB) = [AB] = \int^{B}_{A} n.ds = n \int^{B}_{A} ds = n \overline{AB}$$
 
 Or $L$ doit être minimal $\Rightarrow$ $L = n AB$
 
@@ -166,7 +161,7 @@ $$L (AB) = \int^{B}_{A} n.ds = \int^{A}_{B} n.(-ds) = L (BA)$$
 **Centre optique O :** c'est un point du système optique centré tel que tous
 rayons incidents passant par O correspond à un rayon transmis parallèle.
 
-Pour une lentille mince, l'épaisseur de celle-ci, est par définition très
+Pour une lentille mince, l'épaisseur de celle-ci est, par définition, très
   inférieure au rayon de courbure des dioptres et donc négligeable.
 
 **Stigmatisme rigoureux :** lorsque le rayon issu d'un point A, dit point objet
@@ -178,8 +173,6 @@ Lorsque le système optique fait converger les rayons issus d'un point $A$ vers
   avant le dioptre de sortie (dans le système optique), $A'$ est l'image
   virtuelle de $A$.
 
-$$L(AA') = n AI + N II' + n' I' A'$$
-$$L(AA') = n AJ + N JJ' + n' J' A'$$
 $$L(\overline{AA'}) = n \overline{AI} + N \overline{II'} + n' \overline{I' A'}$$
 $$L(\overline{AA'}) = n \overline{AJ} + N \overline{JJ'} + n' \overline{J' A'}$$
 
@@ -258,6 +251,7 @@ Le signe identique dans la phase sur $\vec k . \vec r + \omega t$ (ici le
   solution exprimée en $\vec k . \vec r - \omega t$ (ici le signe $-$) qui
   représente une onde plane dite progressive.
 
+
 #### Surface d'onde (ou front d'onde)
 
 C'est une surface pour laquelle la fonction d'onde à la même valeur à un instant
@@ -288,7 +282,7 @@ Le signe identique dans la phase sur $\omega t  + kr$ (ici le
 ### Théorème de Malus
 
 Dans un milieu isotrope, les rayons issus d'une même source ponctuelle,
-  appelés rayons isogènes sont normaux aux surfaces d'ondes.
+  appelés rayons isogènes, sont normaux aux surfaces d'ondes.
 
 ### Déphasage le long d'un rayon entre deux surfaces d'onde
 
@@ -332,16 +326,19 @@ Lorsque l'on trace les coefficients de réflexion en amplitude pour les deux
   polarisations en fonction de l'onde d'incidence $i_1$, on constate qu'ils sont
   tous deux positifs si $n_1 > n_2$ pour un angle d'incidence suffisamment
   proche de la normale. Ainsi, il n'y a pas de déphasage sur $\vec E$.
-En revanche, $\rho_{\\} \text{ et } \rho_{\perp}$ sont négatifs pour un angle
+
+En revanche, $\rho_{//} \text{ et } \rho_{\perp}$ sont négatifs pour un angle
   d'incidence proche de la normale lorsque $n_1 < n_2$. Ainsi, la réflexion sur
   un milieu plus réfringent en incidence quasi-normale produit un déphasage de
   $\pi$.
 
 
-**Rappel :** Lors de la réflexion d'un champ sans déphasage venant d'un milieu
+### Rappel
+
+Lors de la réflexion d'un champ sans déphasage venant d'un milieu
   matériel sur un milieu matériel ce champ est réfléchi avec le même sens que
   le champ incident.
-  Dans un métal, $\vec E = \vec 0$
+  Dans un métal, $\vec E = \vec 0$.
 
 Comme précédemment, le champ électrique $\vec E$ peut être vu comme la somme de
   deux composantes : $\vec E_{\perp} + \vec E_{//}$.
@@ -349,6 +346,7 @@ Comme précédemment, le champ électrique $\vec E$ peut être vu comme la somme
   Cependant, on observe le changement d'une coordonnée aussi bien pour le
   vecteur $\vec k$ que pour le vecteur $\vec E$, soit $z$ si le plan $Oxy$ est
   le plan du dioptre et l'axe $Oz$ la normale au plan.
+
   Par rapport au déphasage nul, le déphasage de $\pi$ à la réflexion sur un
   métal implique bien le changement des trois coordonnées cartésiennes de $\vec
   E$. Mais uniquement de deux coordonnées entre champ incident et champ
