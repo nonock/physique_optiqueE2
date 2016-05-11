@@ -1,5 +1,6 @@
+
 ---
-title: Diffraction de la lumière 
+title: Diffraction de la lumière
 author: Romain Gille
 date: 10/05/2016
 ...
@@ -8,7 +9,7 @@ date: 10/05/2016
 
 Soit un faisceau de lumière parallèle obtenu grâce à un rayonnement d'un
 laser ou d'une source ponctuelle au foyer objet principal d'une lentille
-convergente se propageant dans une milieu homogène et transparent.
+convergente se propageant dans un milieu homogène et transparent.
 Ce rayonnement en incidence sur un diaphragme percé d'une ouverture de
 dimension $l$ suit les lois de l'optique géométrique si $l > \lambda$ avec
 $\lambda$ la longueur d'onde du rayon incident. En revanche lorsque $l$ tend
@@ -52,7 +53,7 @@ l'ondelette issue de la source ponctuelle fictive $B$.
 Soit $A'$ le point dans le milieu $2$ atteint à l'instant $t + \Delta t$ par
 l'ondelette issue de la source ponctuelle fictive $A$ sur le dioptre.
 Le plan d'onde à l'instant $t + \Delta t$ contient donc les deux points $A'$ et
-$B'$, donc 
+$B'$, donc
 
 $$\Delta t = \dfrac{BB'}{v_1} = \dfrac{AA'}{v_2}$$
 
@@ -99,18 +100,18 @@ parle de diffraction à l'infini ou **diffraction de Fraunhoffer**.
 
 $$\vec r = \vec{MP} = \vec{OP} - \vec{OM}$$
 $$r = \sqrt{(\vec{OP} - \vec{OM})^2} =
-\sqrt{{OP}^2 - 2 \vec{OP}\vec{OM} + {OM}^2$$
+\sqrt{{OP}^2 - 2 \vec{OP}\vec{OM} + {OM}}^2$$
 $$r = OP \sqrt{1 - \dfrac{2 \vec e \vec{OM}}{OP} + \dfrac{{OM}^2}{{OP}^2}}$$
 $$r = OP (1 - \dfrac{2 \vec e \vec{OM}}{OP} + \dfrac{{OM}^2}{{OP}^2})^{1/2}$$
 
 
 ## Diffraction de Fresnel
 
-$$OM << OP \Rightarrow 
-r \approx OP(1 - \dfrac{\vec e \ ec OM}{OP} +
+$$OM << OP \Rightarrow
+r \approx OP(1 - \dfrac{\vec e \vec OM}{OP} +
 \dfrac{1}{2} \dfrac{{OM}^2}{{OP}^2})$$
 $$A(P) = \iint_D{A_0(M) K(P) \dfrac{\exp{jk OP}}{OP} .
-\exp{-j k \vec e \vec OM} . \exp{jk \dfrac{{OM}^2}{2OP}} d\Sigma$$
+\exp{-j k \vec e \vec OM} . \exp{jk \dfrac{{OM}^2}{2OP}} d\Sigma}$$
 
 Si on peut faire l'approximation $r = OP$ au dénominateur, il n'en est pas de
 même pour les exponentielles complexes de la phase (à l'origine des temps)
@@ -131,9 +132,11 @@ $\vec e(\alpha, \beta, \gamma)$ et $M(x, y, 0)$ ainsi que de la surface
 On obtient
 $$r = OP(\alpha x + \beta y) + \dfrac{x^2 + y^2}{2OP}$$
 et
-$$A(P) = \dfrac{\exp{j k OP}}{j \lambda OP} \iint_D{A_0(M) \exp{-j \dfrac{2\pi}{\lambda}}(\alpha x + \beta y) . \exp{j \pi \dfrac{x^2 + y^2}{2 OP}}} dxdy$$
+$$A(P) = \dfrac{\exp{j k OP}}{j \lambda OP}
+\iint_D{A_0(M) \exp{-j \dfrac{2\pi}{\lambda}}(\alpha x + \beta y) .
+\exp{j \pi \dfrac{x^2 + y^2}{2 OP}}} dxdy$$
 
 Le calcul de l'amplitude complexe en un point $P$ de l'espace est compliqué
 indépendamment de $A_0(M)$ compte tenue du terme de phase quadratique.
 La diffraction de Fresnel est donc plus difficile à résoudre que la diffraction
-de Fraunhoffer qui précisemment simplifie ce terme.
+de Fraunhoffer qui précisément simplifie ce terme.
