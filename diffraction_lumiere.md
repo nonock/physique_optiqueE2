@@ -23,7 +23,7 @@ Dans l'exemple de la diffraction par $1$ bord, on constate le phénomène de
 diffraction par le bord d'un obstacle avec la présence de lumière dans la zone
 correspondant à la zone d'ombre prévu par l'optique géométrique.
 Ce phénomène de déviation de la lumière quand un faisceau de lumière est
-spatialement limité par un obstacle ou une overture s'appelle **la
+spatialement limité par un obstacle ou une ouverture s'appelle **la
 diffraction**.
 L'objet (ou l'ouverture) qui produit ce phénomène est dit diffractant(e) ou
 diffringent(e).
@@ -44,7 +44,7 @@ considérés à l'instant $t$.
 
 ### Applications du principe d'Huygens
 
-Considéront une onde plane avec une incidence $i_1$ sur un dioptre plan qui
+Considérons une onde plane avec une incidence $i_1$ sur un dioptre plan qui
 sépare deux milieux homogènes $1$ et $2$ dans lesquels la vitesse de la lumière
 est respectivement $v_1$ et $v_2$ tels que $v_2 < v_1$.
 Soit $A$ et $B$ deux points du plan d'onde dans le milieu $1$ à un instant $t$.

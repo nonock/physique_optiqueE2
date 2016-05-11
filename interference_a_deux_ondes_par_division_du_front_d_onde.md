@@ -1,3 +1,4 @@
+
 ---
 title : Interférence à deux ondes par division du front d'onde
 author : Romain Gille
@@ -17,7 +18,7 @@ parcouru des chemins optiques différents.
 ## Trous d'Young
 
 La source $S_0$ émet une onde sphérique. Les deux trous $S_1$ et $S_2$,
-infiniment petits et percés dans un diafragme isolent deux portions de l'onde
+infiniment petits et percés dans un diaphragme isolent deux portions de l'onde
 sphérique. $S_1$ et $S_2$ définissent ainsi deux sources ponctuelles
 mutuellement cohérentes.
 
@@ -120,7 +121,7 @@ $$\overline{S S_2} - \overline{S S_1} = \dfrac{\overline{S S_2}^2 -
 \overline{S S_1}^2}{\overline{S S_2} + \overline{S S_1}}$$
 
 $d$ est très supérieur à $a$ et la source $S$ reste proche du plan de symétrie
-du diafragme.
+du diaphragme.
 
 $$\overline{S S_2} + \overline{S S_1} \approx 2 d$$
 $$\overline{S S_2}^2 = [(-{a \over 2} - x)^2 + (y - y_0)^2 + d^2]$$
@@ -176,10 +177,10 @@ $$I = 2 I_0 (1 + \cos(\dfrac{2\pi}{\lambda}\dfrac{aX}{D}))$$
 
 Quand la largeur de la fente source $l_f$ augmente depuis $0$, le contraste
 diminue jusqu'à atteindre une valeur nulle pour
-$\dfrac{\pi a l_f}{\lambda d} = \pi$.  
+$\dfrac{\pi a l_f}{\lambda d} = \pi$.
 L'écran est alors uniformément éclairé (l'intensité est identique en tout point
 $M$), autrement dit, la figure d'interférence disparaît. On parle alors de
-brouillage des franges d'interférence.  
+brouillage des franges d'interférence.
 On peut ainsi expliciter la largeur de cohérence spatiale $l_s$ présentée au
 chapitre précédent comme étant dans le cas des fentes d'Young la largeur de
 fente $l_f$ pour laquelle le contraste s'annule. On a :
@@ -204,7 +205,7 @@ $$d I_0 = I_{\nu}(\nu)d\nu$$
 $$I_0 = \int\limits_{\nu_1}^{\nu_2}I_{\nu}(\nu)d\nu
 = I_{\nu}(\nu)(\nu_1 - \nu_2)$$
 
-Avec $I_0$ l'intensité lumineuse totale de l'onde émise par la source.  
+Avec $I_0$ l'intensité lumineuse totale de l'onde émise par la source.
 Comme des ondes de fréquences différentes ne peuvent interférer, l'intensité en
 un point $M$ est donc la somme des intensités créés par la somme des ondes
 monochromatique de fréquence $\nu$ contenus dans la largeur de l'onde spectrale
@@ -230,14 +231,14 @@ $$I = 2 I_0(1 + \text{sinc}(\dfrac{\pi\delta\Delta\nu}{c})
 \newpage
 
 On obtient un nouveau facteur de visibilité $V$ qui cette fois dépend du point
-$M$ car il dépend de la différence de marche $\delta$.  
+$M$ car il dépend de la différence de marche $\delta$.
 $\dfrac{1}{\Delta \nu}$ représente la durée moyenne des trains d'onde pour une
 distribution spectrale rectangulaire. Il s'agit donc du temps de cohérence
-$\tau_c$.  
+$\tau_c$.
 Le contraste $\gamma = |V|$ s'annule pour $\delta = \dfrac{c}{\Delta \nu}$,
-donc pour $\delta = c \tau_c$.  
-$c \tau_c$ est la longueur de cohérence spatiale.  
-Or la longeur de cohérence temporelle $L_c$ est telle que $L_c = c \tau_c$ donc
+donc pour $\delta = c \tau_c$.
+$c \tau_c$ est la longueur de cohérence spatiale.
+Or la longueur de cohérence temporelle $L_c$ est telle que $L_c = c \tau_c$ donc
 $\delta = L_c$ lorsque le contraste s'annule. La longueur de cohérence
 temporelle $L_c$ se définie ainsi comme étant la longueur moyenne des trains
 d'onde pour laquelle le contraste s'annule. On retrouve le fait que pour

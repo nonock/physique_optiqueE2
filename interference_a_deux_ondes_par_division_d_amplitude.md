@@ -1,3 +1,4 @@
+
 ---
 title: Interférence à deux ondes par division d'amplitude
 author: Romain Gille
@@ -10,20 +11,20 @@ date: 29/03/2016
 # Généralités
 
 Pour les systèmes interférentiels à division du front d'onde, la source primaire
-doit être quasi-ponctuelle ou très fine pour qu'il y ai cohérence entre les
+doit être quasi-ponctuelle ou très fine pour qu'il y ait cohérence entre les
 ondes émises. La conséquence est que les figures d'interférence sont
-relativement peu lumineuses.  
+relativement peu lumineuses.
 Pour qu'il y ai une interférence entre deux ondes, il faut que leur déphasage en
 un point $M$ d'observation des interférences soit tel que :
 $$\phi = \phi_1 - \phi_2 = \dfrac{2\pi}{\lambda_0}\delta =
 \dfrac{2\pi}{\lambda_0}([SS_1M] - [SS_2M]) = \text{ constante}$$
 
 Ainsi si la source ponctuelle primaire $S$ est déplacée de
-$\vec \Delta S = \vec S S'$, les chemins optiques $[SS_1M] \text{ et } [SS_2M]$
+$\vec \Delta S = \vec{S S'}$, les chemins optiques $[SS_1M] \text{ et } [SS_2M]$
 varient respectivement de
 $n \vec \Delta S . \vec u_1 \text { et } n \vec \Delta S . \vec u_1$
 avec $u_1$ et $u_2$ les vecteurs unitaires portés par les directions de
-propagation des ondes.  
+propagation des ondes.
 La variation de phase $\Delta \phi$ correspondant au déplacement de la source
 $S$ est donc :
 $$\Delta \phi = dfrac{2\pi}{\lambda_0} n \vec \Delta S (\vec u_1 - \vec u_2)$$
@@ -33,7 +34,7 @@ nul lorsque la source primaire se déplace :
 * $\vec \Delta S \perp (\vec u_1 - \vec u_2)$ c'est la propriété exploitée
   dans les systèmes interférentiels par division du front d'onde lorsque l'on
   passe d'une source ponctuelle à une fente fine, étendue dans la direction
-  perpendiculaire au plan des ondes interférents.
+  perpendiculaire au plan des ondes interférants.
 
 * $\vec u_1 = \vec u_2$ cela correspond à un rayon incident unique ou à des
   rayons incidents parallèles. C'est le cas que nous allons considérer
@@ -56,7 +57,7 @@ Les rayons d'une source étendue, de même inclinaison $i$ par rapport à la lam
 mince sont parallèles entre eux après réflexion ou transmission par les dioptres
 parallèles de la lame mince. Ces rayons incidents parallèles entre eux
 permettent de renforcer la figure d'interférence. Celle-ci se forme à l'infini
-compte tenue du parallélisme des ondes interférentes issus de la lame mince. On
+compte tenue du parallélisme des ondes interférantes issus de la lame mince. On
 dit que les interférences sont **localisés à l'infini**.
 
 ## La lame en coin
@@ -67,13 +68,13 @@ rayons issus de la réflexion ou de la transmission par la lame mince est plus o
 moins proche de celle-ci. On dit que les interférences sont **localisés dans
 l'espace**.
 
-# Déphasage introduit par une lame.
+# Déphasage introduit par une lame
 
-Bien que la demonstration qui suive sois illustrée par le cas d'une lame mince
+Bien que la démonstration qui suive sois illustrée par le cas d'une lame mince
 parallèle, elle reste valable localement pour la lame épaisseur non uniforme,
-appelée lame en coin.  
+appelée lame en coin.
 Soit une lame mince transparente d'indice $n$ à face parallèle d'épaisseur $e$
-plongée dans un milieu d'indice $n_0$.  
+plongée dans un milieu d'indice $n_0$.
 Soit une onde plane dont on considère que l'amplitude est égale à 1 se
 propageant dans le milieu d'indice $n_0$ avec une incidence proche de la normale
 au dioptre de la lame mince. Cette onde crée une infinité d'ondes réfléchis et
@@ -83,17 +84,17 @@ Les coefficients de transmissions et de réflexion en amplitude
 $\tau \text{ et } \rho$ pour une incidence normale sont pour
 les dioptres 1 et 2 :
 
-* $\rho_1 = \dfrac{n_0 - n}{n_0 + n}$ et $\rho_2 = \dfrac{n - n_0}{n_0 + n}$  
+* $\rho_1 = \dfrac{n_0 - n}{n_0 + n}$ et $\rho_2 = \dfrac{n - n_0}{n_0 + n}$
 * $\tau_1 = \dfrac{2 n_0}{n_0 + n}$ et $\tau_2 = \dfrac{2 n}{n_0 + n}$
 
 Deux relations sont à prendre en compte entre ces quatres coefficients :
 
-* $$\rho_1 = - \rho_2$$  
+* $$\rho_1 = - \rho_2$$
 * La deuxième est issue du théorème de conservation de l'énergie appliqué en un
-  point du dioptre : $R + T = 1$ avec $R$ le coefficients de réflexion en
-  énergie et $T$ le coefficient de transmission en énergie.  
+  point du dioptre : $R + T = 1$ avec $R$ le coefficient de réflexion en
+  énergie et $T$ le coefficient de transmission en énergie.
   Appliqué au dioptre 1, les coefficients en énergie pour une incidence proche
-  de la normale sont :  
+  de la normale sont :
   $$R_1 = \rho_1^2 \text{ et } T_1 = \tau_1^2 \dfrac{n}{n_0}$$
   $$\Rightarrow \rho_1^2 + \tau_1^2 \dfrac{n}{n_0} = 1$$
   $$\text{ D'où : } \rho_1^2 + \tau_1 \tau_2 = 1$$
@@ -104,14 +105,14 @@ Les deux relations précédentes peuvent se réécrire :
 $$\rho_1 = - \rho_2 = -\rho < 0$$
 $$\tau_1 \tau_2 = 1 - \rho^2$$
 
-Les amplitudes des quatres premières ondes réfléchies sont :
+Les amplitudes des quatre premières ondes réfléchies sont :
 $$\rho_1, \tau_1 . \tau_2 . \rho_2, \tau_1 . \tau_2 . {\rho_2}^3,
 \tau_1 . \tau_2 . {\rho_2}^5$$
 
 En appliquant les relations réécrites :
 $$-\rho, (1 - \rho^2)\rho, (1 - \rho^2)\rho^3 \text{ et }(1 - \rho^2) \rho^5$$
 
-De la même façon, les amplitudes des quatres premières ondes transmises sont :
+De la même façon, les amplitudes des quatre premières ondes transmises sont :
 $$\tau_1 . \tau_2, \tau_1 . \tau_2 . {\rho_2}^2, \tau_1 . \tau_2 . {\rho}^4,
 \tau_1 . \tau_2 . {\rho_2}^6$$
 $$\text{soit }(1 - \rho^2), (1 - \rho^2)\rho^2, (1 - \rho^2) \rho^4,
@@ -172,28 +173,28 @@ appellera différence de marche physique.
 # Franges d'égales inclinaisons : franges Haidinger
 
 Cette figure d'interférence est obtenue à partir d'une lame mince à face
-parallèle éclairée par une source monochromatique étendue. Les deux ondes issus
-de la réflexion ou de la transmission par la lame ne sont pas de même amplitude
-donc elles ne sont pas de mêmes intensités.  
+parallèle éclairée par une source monochromatique étendue. Les deux ondes
+issuent de la réflexion ou de la transmission par la lame ne sont pas de même
+amplitude donc elles ne sont pas de mêmes intensités.
 L'expression de l'intensité des interférences vu dans le chapitre sur les
 interférences à deux ondes est :
 $$I = I_1 + I_2 + 2 \sqrt{I_1 I_2} \cos \theta \cos[\phi_1 - \phi_2]$$
 
-Avec $\theta$ l'angle entre les champs électriques des deux ondes issus des
-sources secondaires. Ces ondes provennant de la réflexion et de la transmission
+Avec $\theta$ l'angle entre les champs électriques des deux ondes issuent des
+sources secondaires. Ces ondes provenant de la réflexion et de la transmission
 par une lame à face parallèle sont parallèles entre-elles
 $\Rightarrow \cos \theta = 1$.
 $$I = I_1 + I_2 + 2 \sqrt{I_1 I_2} \cos \phi$$
 $$\phi = \dfrac{2\pi}{\lambda_0}(2 e n \cos r + \delta \phi)$$
 
-De ces deux expressions, on déduit que les points d'égals intensités sont ceux
+De ces deux expressions, on déduit que les points d'égales intensités sont ceux
 pour lesquels la différence de phase $\phi$ est identique. C'est-à-dire pour une
 lame d'épaisseur constante $e$, ceux pour lesquels $e$ est une constante
 $\Rightarrow i$ est une constante. Cela justifie le nom de frange d'inclinaison
 vu qu'une frange est obtenue à partir de l'ensemble des ondes issus de la source
 étendue présentant la même incidence sur la lame.
 
-Les deux exemples d'observation des franges d'égales inclinaisons obtenus par
+Les deux exemples d'observation des franges d'égales inclinaisons obtenuent par
 transmission et réflexion définissent des figures d'interférence constitués
 d'anneaux concentriques localisés à l'infini puisqu'elles proviennent des
 interférences produites par des rayons parallèles entre eux.
@@ -201,9 +202,9 @@ interférences produites par des rayons parallèles entre eux.
 ## Interféromètre de Michelson : utilisation en lames d'air
 
 L'interféromètre de Michelson est constitué de deux miroirs $M_1$ et $M_2$,
-d'une lame de verre avec une face métalisée pour être semi-réfléchissante
+d'une lame de verre avec une face métallisée pour être semi-réfléchissante
 appelée lame séparatrice $L_S$ et d'une lame transparente de même indice et de
-même épaisseur que $L_S$ appelée lame compensatrice $L_C$.  
+même épaisseur que $L_S$ appelée lame compensatrice $L_C$.
 La lame compensatrice permet comme con nom l'indique de compenser le nombre de
 fois où deux rayons issus de la source et réfléchis respectivement par $M_1$ et
 $M_2$ traversent une même épaisseur de verre.
@@ -212,7 +213,7 @@ Quand l'interféromètre de Michelson est éclairé par une source large et rég
   en lames à faces parallèles, les interférences se trouvent à l'infini et
   nécessitent donc de placer l'écran d'observation dans le plan focal d'une
   lentille convergente.
-Si le miroir $M_1$ est remplacé par le symétrique de mirroir $M_2$ par rapport
+Si le miroir $M_1$ est remplacé par le symétrique de miroir $M_2$ par rapport
   au plan de la séparatrice, soit $M_2'$, la différence de marche $\delta$ entre
   ces deux rayons est nulle, ainsi tout se passe comme si les interférences
   étaient produites par une lame d'air entre le miroir réel $M_1$ et le miroir
@@ -269,7 +270,7 @@ $$\rightarrow \rho_{\text{ms}} = f\sqrt{\dfrac{\lambda_0}{n e}(m_0 - m)}$$
 
 Ainsi, on vient de montrer une nouvelle fois que lorsque le centre des anneaux
   est un point brillant (respectivement sombre), le rayon des anneaux brillants
-  (respectivement sombre) varie comme la racine carée de nombre entiers
+  (respectivement sombre) varie comme la racine carrée de nombre entiers
   successifs $(m_0 - m)$. Les anneaux se resserrent donc à mesure que l'on
   s'éloigne du centre.
 
@@ -335,11 +336,11 @@ $$AB = \dfrac{\Delta e}{\alpha} \text{ avec } \sin{\alpha} \approx \alpha$$
 $$AB = i_f = \dfrac{\lambda_0}{2 n \alpha}$$
 
 $AB$ est constante, on peut donc parler d'interfrange entre deux franges
-d'égales intensités contigues tels que $i_f = \dfrac{\lambda_0}{2 n \alpha}$
+d'égales intensités contiguës tels que $i_f = \dfrac{\lambda_0}{2 n \alpha}$
 Par ailleurs, comme $e = \alpha X$ avec $X$ la distance entre la frange et
-l'arète du coin, l'ensemble des points d'égale intensités obtenues pour $e =$
+l'arête du coin, l'ensemble des points d'égale intensités obtenues pour $e =$
 constante sont donc tels que $X =$ constante. Ainsi, les franges sont des
-droites parallèles à l'arète du coin.
+droites parallèles à l'arête du coin.
 
 Nous allons voir ci-après, deux méthodes pour obtenir des interférences par un
 coin d'air. Grâce au dispositif des anneaux de Newton et avec l'interféromètre
@@ -353,7 +354,7 @@ $$\rho^2 = 2 R e'$$
 
 La lame d'air est réalisée entre une lentille plan convexe dont la face convexe
 est placée en regard d'une lame mince à face parallèle. Soit $e$ l'épaisseur de
-la lame au point $M$ considéré et $R$ le rayon de courbure de la lentille tel
+la lame au point $M$ considéré et $R$ le rayon de courbure de la lentille telle
 que $e << R$.
 Soit $\rho$ la distance à l'axe optique de la lentille, les
 franges d'égales épaisseur définissent des anneaux concentriques du fait de la
@@ -398,9 +399,9 @@ $$\rho_{\text{ms}} = \sqrt{\lambda_0 R\left(m + {1\over 2} - p_0\right)}
 \text{ avec }m \text{ un entier}$$
 
 Dans le cas général, on peut exprimer $p_0$ par $p_0 = m_0 + \epsilon$ avec
-$0 \leq \epsilon < 1$ et avec $m_0$ la valeur minimum de $m$.
+$0 \leq \epsilon < 1$ et avec $m_0$ la valeur minimale de $m$.
 
-**Ordre d'interférence du :**
+**Ordre d'interférence :**
 
 * $1^{\text{er}}$ anneau brillant : $m_0 + 1$
 * $2^{\text{ème}}$ anneau brillant : $m_0 + 2$

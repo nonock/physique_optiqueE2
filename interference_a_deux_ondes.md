@@ -1,3 +1,4 @@
+
 ---
 title: Interférence à deux ondes
 author: Romain Gille
@@ -9,34 +10,33 @@ date: 17/02/2016
 
 # Cohérence de la lumière
 
-Le phénomène d'interférence entre deux sources lumineuses nécessite que les 
+Le phénomène d'interférence entre deux sources lumineuses nécessite que les
   longueurs d'ondes qui interfèrent soient identiques mais également que les
-  sources soient ponctuelles. Ces deux impératifssont reliés respectivements
+  sources soient ponctuelles. Ces deux impératifs sont reliés respectivement
   aux notions de cohérence temporelle et de cohérence spatiale. La nécessité
   d'avoir des sources à la même fréquence, se confronte à l'impossibilité
   d'avoir une source parfaitement monochromatique.
 
 ## Caractère scalaire de l'émission lumineuse
 
-Les sources émettent de la lumière par suite de la desexcitation d'atomes, au
+Les sources émettent de la lumière par suite de la désexcitation d'atomes, au
 préalable soumis à une excitation
 
-*   électrique  
-*   thermique  
-*   lumineuse
+* électrique
+* thermique
+* lumineuse
 
 L'atome excité devient un dipôle oscillant dont la charge négative est
-  l'électron, atome qui en se désexcitant émet une onde electromagnetique.
+  l'électron, atome qui en se désexcitant émet une onde électromagnetique.
   L'énergie rayonnée est fournie par l'énergie mécanique de l'oscillateur qui
-  s'ammorti du fait de l'émission lumineuse, émission qui cesse lorsque l'atome
+  s'ammortit du fait de l'émission lumineuse, émission qui cesse lorsque l'atome
   arrête de vibrer. Lorsque l'atome est désexcité, il l'est avec la même
-  fréquence d'oscillation $\nu_0$ et le même module du champ électrique $E_0$.  
+  fréquence d'oscillation $\nu_0$ et le même module du champ électrique $E_0$.
   En revanche, la phase initiale du mouvement est aléatoire, c'est à dire sans
-  relation avec celle du mouvenet précédent. Donc le champ électrique prend 
+  relation avec celle du mouvement précédent. Donc le champ électrique prend
   toutes les orientations possibles dans le plan perpendiculaire à la direction
   de propagation sur une durée suffisante pour l'observation ou la détection du
-  rayonnement  
-  (durée $>>$ à la durée d'oscillation du dipôle).
+  rayonnement (durée $>>$ à la durée d'oscillation du dipôle).
 
 \newpage
 
@@ -51,14 +51,14 @@ $$\nu_0 \text{ : fréquence centrale d'oscillation}$$
 $$\tau_c \text{ : temps de cohérence}$$
 
 La largeur totale à mi hauteur définie comme étant la largeur de bande
-$\Delta \nu_{1/2}$ est telle que l'intensité spectrale $I(\nu) \geq 
+$\Delta \nu_{1/2}$ est telle que l'intensité spectrale $I(\nu) \geq
 \dfrac{A}{2}$
 
 $$\Delta \nu_{1/2} = \dfrac{1}{\pi \tau_c}$$
 
 Cette forme de distribution est attribuée aux collisions entre atomes de la
   source, collision due à l'agitation thermique. Elle est reliée à la durée
-  de l'emission de l'onde entre deux chocs.
+  de l'émission de l'onde entre deux chocs.
 
 ### Distribution hertzienne
 
@@ -68,7 +68,7 @@ Cette forme de distribution est attribuée à l'effet Doppler, c'est à dire la
 
 ## Cohérence temporelle
 
-Le mouvement oscillant des atomes excités s'ammortissant, le profil du champ
+Le mouvement oscillant des atomes excités s'amortissant, le profil du champ
 électrique de l'onde émise est de la forme suivante :
 
 $$E(t) = E_0 e^{\frac{-t}{\tau_0}} \cos(2\pi\nu_0 t)$$
@@ -77,10 +77,10 @@ Notation complexe :
 
 $$E(t) = E_0 e^{\frac{-t}{\tau_0}} e^{j2\pi\nu_0 t}$$
 
-$\tau_c$ représente la durée caractéristique du mouvement oscillatoire de 
-  l'atome pendant laquelle l'amplitude du champ électrique s'ammortit d'un 
-  facteur $e$ et s'appelle le temps de cohérence. L'ensemble des vibrations 
-  d'allure sinusoïdale durant cet interval de temps s'appelle le train d'onde.
+$\tau_c$ représente la durée caractéristique du mouvement oscillatoire de
+  l'atome pendant laquelle l'amplitude du champ électrique s'amortit d'un
+  facteur $e$ et s'appelle le temps de cohérence. L'ensemble des vibrations
+  d'allure sinusoïdale durant cet intervalle de temps s'appelle le train d'onde.
   Le temps de cohérence correspond à la durée moyenne du train d'onde.
 
 \newpage
@@ -95,14 +95,14 @@ $$I(\nu) = \dfrac{n E_0^2 \tau_c^2}{4\pi^2 \tau_c^2(\nu - \nu_0^2) + 1}$$
 La largeur de bande $\Delta\nu_{1/2}$ étant inversement proportionnelle à 
   $\tau_c$, l'existence d'une raie monochromatique idéale supposerait que les
   atomes oscillent durant une durée infinie et sans amortissement.
-  
-On définie la longueur de tolérence temporelle $L_c$ comme $L_c = c \tau_c$
-  $L_c$ est la longueur moyenne du train d'onde. Pour un système interféreciel 
-  à deux ondes, si la différence de marche $\delta$ en un point $M$ entre des 
-  rayons 1 et 2 issus des sources et supérieure à $L_c$, alors il n'y a plus 
+
+On définie la longueur de tolérance temporelle $L_c$ comme $L_c = c \tau_c$
+  $L_c$ est la longueur moyenne du train d'onde. Pour un système interférenciel
+  à deux ondes, si la différence de marche $\delta$ en un point $M$ entre des
+  rayons 1 et 2 issus des sources et supérieure à $L_c$, alors il n'y a plus
   d'interférence. Autrement dit, si $\delta > L_c$, la différence de phase est
-  aléatoire.  
-  Les trains d'onde ne se superposent plus la majorité du temps quand la 
+  aléatoire.
+  Les trains d'onde ne se superposent plus la majorité du temps quand la
   différence de marche entre les rayons est trop grande.
 
    |$\lambda (nm)$ | $\tau_c (s)$ | $L_c (m)$ |
@@ -116,8 +116,8 @@ On définie la longueur de tolérence temporelle $L_c$ comme $L_c = c \tau_c$
 La cohérence spatiale représente la capacité de chacun des points du front
   d'onde à être dans le même état vibratoire. La dimension dans le plan d'onde
   pour laquelle les trains d'ondes sont en phase s'appelle la largeur de
-  cohérence spatiale $l_s$. Si la source est trop étendue, elle présente des 
-  ondes incohérente entre elles. La source étendue peut être vue comme un
+  cohérence spatiale $l_s$. Si la source est trop étendue, elle présente des
+  ondes incohérentes entre elles. La source étendue peut être vue comme un
   ensemble de sources ponctuelles chacune susceptible de produire son propre
   système d'interférence. Si la variation de $\delta$ pour les différentes
   sources ponctuelles est perturbée, cela peut brouiller les interférences comme
@@ -129,14 +129,14 @@ La cohérence spatiale représente la capacité de chacun des points du front
 
 Considérons deux ondes monochromatiques, polarisées rectilignement issus de deux
 sources $S_1$ et $S_2$ ponctuelles. Les ondes sont sphériques, synchrones (même
-$\omega \text{ ou } f$), les champs électriques instantannés en notation
+$\omega \text{ ou } f$), les champs électriques instantanés en notation
 complexe en un point $M$ de l'espace s'écrivent de la façon suivante :
 
 $$\vec{E_1} = \dfrac{C_1}{r_1} e^{j(\omega t + kr_1 + \phi_1)} \vec{u_1}$$
 $$\vec{E_2} = \dfrac{C_2}{r_2} e^{j(\omega t + kr_2 + \phi_2)} \vec{u_2}$$
 
 Les $C$ sont des constantes.
-Les $\phi$ sont les phases instantannées à l'origine des temps et de l'espace,
+Les $\phi$ sont les phases instantanées à l'origine des temps et de l'espace,
 c'est-à-dire, aux sources $S_1$ et $S_2$ à l'instant d'émission des trains
 d'ondes.
 
@@ -186,7 +186,7 @@ somme de leurs intensités. On dit alors que les sources sont incohérentes.
 
 Si les sources présentent un déphasage $\phi_1 - \phi_2$ entre les trains
 d'ondes constants au cours du temps (donc si les sources sont cohérentes) mais
-également si les champs instantannés $\vec{E_1}$ et $\vec{E_2}$ qui varient au
+également si les champs instantanés $\vec{E_1}$ et $\vec{E_2}$ qui varient au
 cours du temps font un angle constant entre eux ($\cos{\Theta}$ est une
 constante) et différent de $\dfrac{\pi}{2}$, alors il y a interférence.
 
@@ -199,8 +199,8 @@ $r_1 - r_2 = \text{ constante}$.
 
 Les surfaces ainsi définies sont des hyperboloïdes.
 L'intersection de ces surfaces avec un plan d'observation défini la figure
-d'interférences avec des franges brillantes correspondant au maxima d'intensité
-et des franges sombres correspondant au minima d'intensité.
+d'interférences avec des franges brillantes correspondantes au maxima
+d'intensité et des franges sombres correspondantes au minima d'intensité.
 
 L'intersection des hyperboloïdes avec un plan perpendiculaire à l'axe
 $(S_1 S_2)$ donne un système de franges circulaires. Leur intersection avec des
@@ -210,12 +210,12 @@ portions de droites dans la zone d'observation des interférences.
 Les interférences entre deux ondes sont possibles si :
 
 * elles ont mêmes $\omega \text{ ou } f$
-* leur différence de phase instantannée ($\phi_1 - \phi_2$) à l'émission des
-trains d'ondes reste constante dans le temps $\Rightarrow$ les ondes sont donc
-cohérentes temporellement (leur train d'onde se superpose au point $M$).
-* leur champ électrique instantanné bien que prenant toutes les orientations
-possibles sur une durée suffisante pour l'observation ou la détection font
-entre eux un angle constant et différent de $\dfrac{\pi}{2}$.
+* leur différence de phase instantanée ($\phi_1 - \phi_2$) à l'émission des
+  trains d'ondes reste constante dans le temps $\Rightarrow$ les ondes sont donc
+  cohérentes temporellement (leur train d'onde se superpose au point $M$).
+* leur champ électrique instantané bien que prenant toutes les orientations
+  possibles sur une durée suffisante pour l'observation ou la détection font
+  entre eux un angle constant et différent de $\dfrac{\pi}{2}$.
 
 La première condition est difficile à obtenir.
 Les deux suivantes sont impossibles à obtenir si les sources
@@ -233,7 +233,7 @@ est négligeable.
 $$I_{1 moy} = I_{2 moy} = I_{0 moy}$$
 
 De plus, comme $r_1 \approx r_2$, le point $M$ est suffisamment loin des sources
-pour que l'angle $\Theta$ entre les champs électriques instantannés soient
+pour que l'angle $\Theta$ entre les champs électriques instantanés soient
 faibles, donc $\cos{\Theta} = 1$. On prend $I = I_{moy}$.
 
 $$I = 2 I_0 + 2 I_0 \cos{\Phi_1 - \Phi_2} = 2I_0 (1 + \cos{\Phi_1 - \Phi_2})$$
@@ -246,18 +246,20 @@ $$I = 4 I_0 \cos^2 \dfrac{\Phi_1 - \Phi_2}{2}$$
 **On va poser :** $\Phi = \Phi_1 - \Phi_2$
 
 $\Phi$ est une grandeur indépendante du temps donc stationnaire. Compte tenu du
-fait que $\phi_1 - \phi_2 = 0$ (car les sources sont mutuellements cohérentes)
-on a : 
+fait que $\phi_1 - \phi_2 = 0$ (car les sources sont mutuellement cohérentes)
+on a :
 $$\Phi = \dfrac{2\pi}{\lambda}(r_1 - r_2)$$
-$$\Phi = \dfrac{2\pi}{\lambda_n}n(r_1 - r_2) \text { avec } \lambda_n = \lambda_0$$
-$$\Phi = \dfrac{2\pi}{\lambda_0}\delta \text{ avec }\delta \text{ : la différence de marche}$$
+$$\Phi = \dfrac{2\pi}{\lambda_n}n(r_1 - r_2) \text { avec } \lambda_n =
+\lambda_0$$
+$$\Phi = \dfrac{2\pi}{\lambda_0}\delta \text{ avec }\delta
+\text{ : la différence de marche}$$
 
-Les extremas d'intensité obtenus pour $I_1 = I_2 = I_0$ est donc $I_{min(r_1 - r_2)} = 0$ 
-et $I_{max} = 4 I_0$
+Les extremas d'intensité obtenus pour
+$I_1 = I_2 = I_0$ est donc $I_{min(r_1 - r_2)} = 0$ et $I_{max} = 4 I_0$
 
-On définit l'ordre d'interférence 
-$p = \dfrac{\delta}{\lambda_0} = \dfrac{\Phi}{2\pi}$ les points d'égale 
-intensité lumineuse correspondent donc à $p = \text{constante}$.  
+On définit l'ordre d'interférence
+$p = \dfrac{\delta}{\lambda_0} = \dfrac{\Phi}{2\pi}$ les points d'égale
+intensité lumineuse correspondent donc à $p = \text{constante}$.
 De plus $I = I_{max}$ pour $p$ entier et $I = I_{min}$ pour $p$ demi entier.
 
 Le contraste (ou module de la visibilité) des franges d'interférence est défini
@@ -265,16 +267,16 @@ par $\gamma = \dfrac{I_{max} - I{min}}{I_{max} + I{min}}$
 
 # Conclusion
 
-Pour qu'il y ai interférence dans une zone de l'espace, il faut que la longueur
+Pour qu'il y ait interférence dans une zone de l'espace, il faut que la longueur
 de cohérence temporelle $L_C$ et que la largeur de cohérence spatiale $l_S$
 soit suffisante. Or deux sources lumineuses indépendantes présentent entre
 elles des trains d'ondes qui arrivent en un point $M$ avec une différence de
-phase aléatoire et l'orientation du champ électrique instantannée de chacune
-est également aléatoire. Les sources sont alors incohérentes.  
-On obtient une intensité lumineuse moyenne en ce point ($M$) qui est la somme 
-des intensités lumineuses moyenne de chaque onde.  
+phase aléatoire et l'orientation du champ électrique instantanée de chacune
+est également aléatoire. Les sources sont alors incohérentes.
+On obtient une intensité lumineuse moyenne en ce point ($M$) qui est la somme
+des intensités lumineuses moyenne de chaque onde.
 Dans ce cas, l'intensité lumineuse est uniforme puisqu'elle ne présente pas de
-distribution spatiale telle qu'on l'obtient avec un phénomène d'interférence.  
+distribution spatiale telle qu'on l'obtient avec un phénomène d'interférence.
 Pour obtenir des interférences, il faut que les deux sources dérivent de la
 même source primaire pour supprimer le caractère aléatoire relatif de
 l'émission de train d'ondes entre deux sources indépendantes. Les sources sont
