@@ -75,18 +75,20 @@ La plupart des dispositifs interférenciels à deux ondes par division du front
 d'onde, notamment les dispositifs symétriques, permettent de traiter le
 phénomène d'interférence de manière uniforme. En effet, pour tous ces
 dispositifs nous considérerons deux sources ponctuelles cohérentes $S_1$ et
-$S_2$ avec la même phase initiale. Ainsi, il est possible de traiter le
-phénomène d'interférence en faisant abstraction du dispositif expérimental.
-Dans le plan d'observation de la figure d'interférence $\pi$ parallèle à
-($S_1 S_2$) à la distance $D$ des sources, les ondes sphériques issus de $S_1$
-et $S_2$ distantes de $A$ sont assimilables à des ondes planes.
+$S_2$ avec la même phase initiale.
+
+Ainsi, il est possible de traiter le phénomène d'interférence en faisant
+abstraction du dispositif expérimental. Dans le plan d'observation de la figure
+d'interférence $\pi$ parallèle à ($S_1 S_2$) à la distance $D$ des sources,
+les ondes sphériques issus de $S_1$ et $S_2$ distantes de $A$ sont assimilables
+à des ondes planes.
 
 Dans le repère $Oxyz$, le point $M$ dans la zone d'observation des interférence
-est tel que $x << D$ et $y << D$.
+est tel que $x \text{ et } y$ très inférieurs à $D$.
 
 # Interférences par des fentes sources infinies
 
-Si on déplace des sources secondaires $S_1 \text{ et } S_2$ par une translation
+Si on déplace les sources secondaires $S_1 \text{ et } S_2$ par une translation
 parallèle à $Oy$ au premier ordre, on ne change pas la différence de marche
 $\delta$ entre les deux ondes. Ainsi, deux fentes sources parallèles peuvent
 être considérées comme composées de couple de sources ponctuelles quand les
@@ -98,7 +100,7 @@ chacun des couples de source ponctuelle interférant.
 
 $$dI = \dfrac{2 I_0}{L_f}(1 + \cos{\phi})dy$$
 
-Le contraste (ou la visibilité) de la figure d'interférence est amélioré puisque
+Le contraste (ou visibilité) de la figure d'interférence est amélioré puisque
 les franges brillantes ont une intensité lumineuse plus élevée.
 L'intensité lumineuse par des fentes fines de longueur $L_f$ peut s'exprimer en
 un point d'observation des interférences par :
@@ -116,7 +118,7 @@ $$I = 2 I_0(cos(\dfrac{nxa}{D} \times \dfrac{2\pi}{\lambda_0}) +1)$$
 
 ## Cohérence spatiale
 
-Soit un point source $S$ de coordonnés $S(x, y, -d, -D)$ d'une source étendue
+Soit un point source $S$ de coordonnés $S(x, y, -D)$ d'une source étendue
 $\Sigma$ dont sont issus deux ondes qui atteignent deux points sources
 secondaires $S_1({a \over 2}, y_0, -D) \text{ et } S_2(-{a \over 2}, y_0, -D)$.  
 La différence de marche entre les deux ondes au point $M(X, Y, 0)$,
@@ -180,10 +182,11 @@ $$I_{min} = 2 I_0(1 - |V|)$$
 
 
 
-Le contraste $\gamma$ des franges d'interférences est tel que
+Le contraste $\gamma$ des franges d'interférences est donné par
 $\dfrac{I_{\text{max}} - I_{\text{min}}}{I_{\text{max}} + I_{\text{min}}}$
 
-Lorsque la largeur de fente $l_f$ tend vers $0$, la visibilité tends vers $1$.  
+Lorsque la largeur de fente $l_f$ tend vers $0$, la visibilité tends vers $1$.
+
 On retrouve l'expression de l'intensité des franges d'interférence dans le cas
 de la fente fine :
 
@@ -191,13 +194,17 @@ $$I = 2 I_0 (1 + \cos(\dfrac{2\pi}{\lambda}\dfrac{aX}{D}))$$
 
 Quand la largeur de la fente source $l_f$ augmente depuis $0$, le contraste
 diminue jusqu'à atteindre une valeur nulle pour
-$\dfrac{\pi a l_f}{\lambda d} = \pi$.
+$$\dfrac{\pi a l_f}{\lambda d} = \pi$$
+
 L'écran est alors uniformément éclairé (l'intensité est identique en tout point
 $M$), autrement dit, la figure d'interférence disparaît. On parle alors de
 brouillage des franges d'interférence.
+
 On peut ainsi expliciter la largeur de cohérence spatiale $l_s$ présentée au
 chapitre précédent comme étant dans le cas des fentes d'Young la largeur de
-fente $l_f$ pour laquelle le contraste s'annule. On a :
+fente $l_f$ pour laquelle le contraste s'annule. 
+
+On a :
 
 $$l_s = \dfrac{\lambda d}{a}$$
 
@@ -220,6 +227,7 @@ $$I_0 = \int\limits_{\nu_1}^{\nu_2}I_{\nu}(\nu)d\nu
 = I_{\nu}(\nu)(\nu_1 - \nu_2)$$
 
 Avec $I_0$ l'intensité lumineuse totale de l'onde émise par la source.
+
 Comme des ondes de fréquences différentes ne peuvent interférer, l'intensité en
 un point $M$ est donc la somme des intensités créés par la somme des ondes
 monochromatique de fréquence $\nu$ contenus dans la largeur de l'onde spectrale
@@ -249,17 +257,23 @@ $M$ car il dépend de la différence de marche $\delta$.
 $\dfrac{1}{\Delta \nu}$ représente la durée moyenne des trains d'onde pour une
 distribution spectrale rectangulaire. Il s'agit donc du temps de cohérence
 $\tau_c$.
+
 Le contraste $\gamma = |V|$ s'annule pour $\delta = \dfrac{c}{\Delta \nu}$,
 donc pour $\delta = c \tau_c$.
+
 $c \tau_c$ est la longueur de cohérence spatiale.
+
 Or la longueur de cohérence temporelle $L_c$ est telle que $L_c = c \tau_c$ donc
-$\delta = L_c$ lorsque le contraste s'annule. La longueur de cohérence
-temporelle $L_c$ se définie ainsi comme étant la longueur moyenne des trains
-d'onde pour laquelle le contraste s'annule. On retrouve le fait que pour
-observer des interférences, on doit avoir $\delta < L_c$ afin que les trains
-d'onde puissent se superposer au point $M$. En effet, lorsque l'on trace la
-visibilité $V$ en fonction de $\delta$ la visibilité devient négative pour
-$\delta > L_c$. Cela suggère une inversion du système de frange qui n'a aucune
-réalité physique qui s'explique par le choix d'une distribution spectrale
-simplifiée. Ainsi, pour $\delta > L_c$, la figure d'interférence disparaît,
-l'éclairement est uniforme, ce qui correspond à un contraste nul.
+$\delta = L_c$ lorsque le contraste s'annule.
+
+La longueur de cohérence temporelle $L_c$ se définie ainsi comme étant la
+longueur moyenne des trains d'onde pour laquelle le contraste s'annule.
+On retrouve le fait que pour observer des interférences, on doit avoir
+$\delta < L_c$ afin que les trains d'onde puissent se superposer au point $M$.
+En effet, lorsque l'on trace la visibilité $V$ en fonction de $\delta$ la
+visibilité devient négative pour $\delta > L_c$. Cela suggère une inversion du
+système de frange qui n'a aucune réalité physique qui s'explique par le choix
+d'une distribution spectrale simplifiée.
+
+Ainsi, pour $\delta > L_c$, la figure d'interférence disparaît, l'éclairement
+est uniforme, ce qui correspond à un contraste nul.
