@@ -17,32 +17,12 @@ parcouru des chemins optiques différents.
 
 ## Trous d'Young
 
-La source $S_0$ émet une onde sphérique. Les deux trous $S_1$ et $S_2$,
+La source $S$ émet une onde sphérique. Les deux trous $S_1$ et $S_2$,
 infiniment petits et percés dans un diaphragme isolent deux portions de l'onde
 sphérique. $S_1$ et $S_2$ définissent ainsi deux sources ponctuelles
 mutuellement cohérentes.
 
-## Miroirs de Fresnel
-
-Deux miroirs inclinés, l'un par rapport à l'autre, d'un angle très petit
-(quelques minutes d'angles) permet d'obtenir des sources virtuelles $S_1$ et
-$S_2$ à partir d'une source primaire $S_0$.
-Dans la partie de l'espace où se rencontrent les deux faisceaux issus de la
-réflexion sur chacun des miroirs apparaissent des franges d'interférence
-rectilignes et parallèles à l'arête commune aux deux miroirs.
-
-## Biprismes de Fresnel
-
-Deux prismes de petits angles au sommet $A$ (quelques minutes d'angle) accolés
-par leurs bases dévient la lumière issue d'une source $S_0$ d'un angle de
-déviation $D = (n-1)A$. $D$ est indépendant de l'angle d'incidence sur chacun
-des prismes
-
-## Bilentille de Billet
-
-Les deux moitiés d'une lentille scindée symétriquement suivant un plan passant
-par son axe optique et faiblement écartée l'une de l'autre par rapport à l'axe
-forment de la source principale $S_0$ deux images réelles $S_1$ et $S_2$.
+![Dispositif des trous d'Young](img/trous-young.png)
 
 ## Miroir de Lloyd
 
@@ -50,6 +30,40 @@ Les interférences s'effectuent dans la région commune au faisceau directement
 émis par la source primaire $S_0$ et par le faisceau réfléchi en incidence
 rasante par rapport au miroir. Par rapport à un système symétrique, la figure
 d'interférence est décalée suivant $Ox$.
+
+![Dispositif du miroir de Lloyd](img/miroir_lloyd.png)
+
+\newpage
+
+## Bilentille de Billet
+
+Les deux moitiés d'une lentille scindée symétriquement suivant un plan passant
+par son axe optique et faiblement écartée l'une de l'autre par rapport à l'axe
+forment de la source principale $S_0$ deux images réelles $S_1$ et $S_2$.
+
+![Dispositif de la bilentille de Billet](img/billet.png)
+
+## Biprismes de Fresnel
+
+Deux prismes de petits angles au sommet $A$ (quelques minutes d'angle) accolés
+par leurs bases dévient la lumière issue d'une source $S$ d'un angle de
+déviation $D = (n-1)A$. $D$ est indépendant de l'angle d'incidence sur chacun
+des prismes
+
+![Dispositif des prismes de Fresnel](img/Fresnel_double_prism.png)
+
+\newpage
+
+## Miroirs de Fresnel
+
+Deux miroirs inclinés, l'un par rapport à l'autre, d'un angle très petit
+(quelques minutes d'angles) permet d'obtenir des sources virtuelles $S_1$ et
+$S_2$ à partir d'une source primaire $S$.
+Dans la partie de l'espace où se rencontrent les deux faisceaux issus de la
+réflexion sur chacun des miroirs apparaissent des franges d'interférence
+rectilignes et parallèles à l'arête commune aux deux miroirs.
+
+![Dispositif des miroirs de Fresnel](img/Fresnel_double_mirror.png)
 
 \newpage
 
