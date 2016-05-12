@@ -53,7 +53,7 @@ Au fil de l'histoire, les physiciens ont représentés ces phénomènes sous for
 
 L'\oe il a une sensibilité à la lumière élevée : capable de détecter une
   puissance lumineuse de $10^{-16} \text{W}$. Le maximum de sensibilité de nuit
-  (vision scotopique) est à $\lambda = 550 \text{nm}$ (bleu), de jour (vision
+  (vision scotopique) est à $\lambda = 550 \text{nm}$ (bleu) et de jour (vision
   photopique) est à $\lambda = 500 \text{nm}$ (vert-jaune).
 
 * **La plaque photographique** : sous l'effet de la lumière, les ions $Ag^+$ se
@@ -134,12 +134,12 @@ $\rightarrow$ $dL$ est donc la distance qu'aurait parcouru la lumière dans le
 
 ### Conséquence immédiate
 
-* Dans un milieu homogène ($n = \text{constante}$, la lumière se propage en
-  ligne droite.)
+* Dans un milieu homogène ($n = \text{constante}$) la lumière se propage en
+  ligne droite.
 
 $$L = (AB) = [AB] = \int^{B}_{A} n.ds = n \int^{B}_{A} ds = n \overline{AB}$$
 
-Or $L$ doit être minimal $\Rightarrow$ $L = n AB$
+Or $L$ doit être minimal $\Rightarrow$ \fbox{$L = n AB$}
 
 * Le trajet suivi par la lumière est indépendant des sens de parcours (principe
   de retour inverse de la lumière).
@@ -158,20 +158,17 @@ $$L (AB) = \int^{B}_{A} n.ds = \int^{A}_{B} n.(-ds) = L (BA)$$
 **Axe optique :** c'est le tracé d'un rayon lumineux qui n'est pas dévié durant
   la traversée du système optique centré.
 
-**Centre optique O :** c'est un point du système optique centré tel que tous
-rayons incidents passant par O correspond à un rayon transmis parallèle.
+**Centre optique O :** c'est un point du système optique centré tel que tout
+rayon incident passant par O correspond à un rayon transmis parallèle.
 
 Pour une lentille mince, l'épaisseur de celle-ci est, par définition, très
   inférieure au rayon de courbure des dioptres et donc négligeable.
 
-**Stigmatisme rigoureux :** lorsque le rayon issu d'un point A, dit point objet
-  immergé d'un système optique, passant par un point, dit point image.
-
-Lorsque le système optique fait converger les rayons issus d'un point $A$ vers
-  un point $A'$ extérieur au système optique (après le dioptre du système
-  optique), on dit que $A'$ est l'image réelle du point A. Lorsque $A'$ est
-  avant le dioptre de sortie (dans le système optique), $A'$ est l'image
-  virtuelle de $A$.
+**Stigmatisme rigoureux :** lorsque le système optique fait converger les rayons
+issus d'un point $A$ vers un point $A'$ extérieur au système optique (après le
+  dioptre du système optique), on dit que $A'$ est l'image réelle du point A.
+  Lorsque $A'$ est avant le dioptre de sortie (dans le système optique), $A'$
+  est l'image virtuelle de $A$.
 
 $$L(\overline{AA'}) = n \overline{AI} + N \overline{II'} + n' \overline{I' A'}$$
 $$L(\overline{AA'}) = n \overline{AJ} + N \overline{JJ'} + n' \overline{J' A'}$$
@@ -184,15 +181,15 @@ Bien que $A'$ soit virtuel pour le système divergent et à l'intérieur du syst
   optique, l'indice de réfraction affecté à $I'A'$ et $J'A'$ est bien celui de
   l'espace de sortie.
 
-On parle de système approximativement stigmatique s'il donne de l'ensemble des
-rayons issus d'un point objet, un ensemble de points images très rapprochés.
+On parle de système **approximativement stigmatique** s'il donne de l'ensemble
+des rayons issus d'un point objet, un ensemble de points images très rapprochés.
 
 En pratique, on peut obtenir un stigmatisme approché dans les conditions de
   Gauss.
 
 L'approximation de Gauss est appliquable à un système centré pour des rayons peu
   inclinés sur l'axe optique et s'écartant peu de celui-ci. Ces rayons sont dits
-  paraxiaux.
+  **paraxiaux**.
 
 ## Conditions de Gauss
 
@@ -211,8 +208,8 @@ Le foyer principal image $F'$ est l'image d'un point objet situé à l'infini.
 
 ### Remarque
 
-Les deux foyers d'une lentille convergente sont réels et les deux foyers d'une
-  lentille divergente sont virtuels.
+Les deux foyers d'une lentille convergente sont **réels** et les deux foyers
+  d'une lentille divergente sont **virtuels**.
 
 
 ### Définition
@@ -232,10 +229,15 @@ Le plan focal image $\pi'$ (respectivement plan focal objet $\pi$) correspond
 
 ## Ondes planes progressives et ondes sphériques progressives
 
-### Equation d'onde (ou équation de propagation)
+### Équation d'onde (ou équation de propagation)
 
-$$\Delta \vec{E} - \dfrac{1}{v^2} \dfrac{\partial^2 \vec E}{\partial t^2}
-  = 0$$
+\centering
+\fbox{
+  $\Delta \overrightarrow{E} - \dfrac{1}{v^2} \dfrac{\partial^2 \overrightarrow E}{\partial t^2}
+  = 0$
+}
+
+\raggedright
 $$\dfrac{1}{v^2} = \sqrt{\epsilon \mu} \text{ et } \dfrac{1}{c^2} =
   \sqrt{\epsilon_0 \mu_0}$$
 
@@ -243,20 +245,26 @@ $$\dfrac{1}{v^2} = \sqrt{\epsilon \mu} \text{ et } \dfrac{1}{c^2} =
 
 #### Fonction d'onde pour une OPPM
 
-$$\vec E = \vec E_0 \exp{j(\vec k . \vec r \pm \omega t)}$$
-$$\vec E_0 = \vec E_M \exp{j\phi_0}$$
+$$\overrightarrow E_0 = \overrightarrow E_M \exp{j\phi_0}$$
 
-Le signe identique dans la phase sur $\vec k . \vec r + \omega t$ (ici le
-  signe $+$) représente une onde plane dite régressive. Contrairement à la
-  solution exprimée en $\vec k . \vec r - \omega t$ (ici le signe $-$) qui
-  représente une onde plane dite progressive.
+\centering
+\fbox{
+  $\overrightarrow E = \overrightarrow E_0 \exp{j(\overrightarrow k . \overrightarrow r \pm \omega t)}$
+}
+
+\raggedright
+
+Le signe identique dans la phase sur $\overrightarrow k . \overrightarrow r + \omega t$ (ici le
+  signe $+$) représente une onde plane dite **régressive**. Contrairement à
+  la solution exprimée en $\overrightarrow k . \overrightarrow r - \omega t$ (ici le signe $-$)
+  qui représente une onde plane dite **progressive**.
 
 
 #### Surface d'onde (ou front d'onde)
 
 C'est une surface pour laquelle la fonction d'onde à la même valeur à un instant
 $t$ donné, soit $\phi = \text{ constante }$.
-On parle alors de surface équiphase. Le vecteur d'onde $\vec k$ est orthogonal
+On parle alors de surface équiphase. Le vecteur d'onde $\overrightarrow k$ est orthogonal
 à la surface d'onde.
 
 \newpage
@@ -265,18 +273,22 @@ On parle alors de surface équiphase. Le vecteur d'onde $\vec k$ est orthogonal
 
 #### Fonction d'onde pour une onde sphérique
 
-$$\vec E = \dfrac{\vec E_0}{r} \exp{j(\omega t \pm kr)}$$
-
 Pour l'onde sphérique, le module de la fonction d'onde doit dépendre de la
   distance $r$ entre le point de l'espace $M$ et la source $O$.
 La surface d'onde (ensemble des points avec la même phase) est alors une
   sphère.
 
+\centering
+\fbox{
+  $\overrightarrow E = \dfrac{\overrightarrow E_0}{r} \exp{j(\omega t \pm kr)}$
+}
+
+\raggedright
 Le signe identique dans la phase sur $\omega t  + kr$ (ici le
-  signe $+$) représente une onde sphérique qui se propage dans le sens des r
-  décroissants, l'onde converge vers la source. Contrairement à la solution
-  exprimée en $\omega t - kr$ (le signe $-$) qui représente une onde
-  sphérique qui se propage dans le sens des r croissants, l'onde diverge de
+  signe $+$) représente une onde sphérique qui se propage dans le sens des
+  **r décroissants**, l'onde converge vers la source. Contrairement à la
+  solution exprimée en $\omega t - kr$ (le signe $-$) qui représente une onde
+  sphérique qui se propage dans le sens des **r croissants**, l'onde diverge de
   la source.
 
 ### Théorème de Malus
@@ -289,15 +301,21 @@ Dans un milieu isotrope, les rayons issus d'une même source ponctuelle,
 Compte tenu des fonctions d'ondes précédentes, le déphasage entre deux points
 $A$ et $B$ sur la trajectoire d'un rayon à un instant $t$ donné est :
 
-  $$\Delta \phi = |\phi_A - \phi_B| = |\vec k . \vec{OA} - \vec k .
-  \vec{OB}|$$
-  $$\Delta \phi = |\vec k . \vec{BA}| \text{ avec } ||\vec k|| =
+  $$\Delta \phi = |\phi_A - \phi_B| = |\overrightarrow k . \overrightarrow{OA} - \overrightarrow k .
+  \overrightarrow{OB}|$$
+  $$\Delta \phi = |\overrightarrow k . \overrightarrow{BA}| \text{ avec } ||\overrightarrow k|| =
   \dfrac{\omega}{v} = \dfrac{2\pi}{\lambda}$$
-  $$\Delta \phi = |\dfrac{2\pi}{\lambda} \vec u . \vec{BA}|$$
-  $$\Delta \phi = \dfrac{2\pi}{\lambda_0} L(BA)$$
+  $$\Delta \phi = |\dfrac{2\pi}{\lambda} \overrightarrow u . \overrightarrow{BA}|$$
 
+\centering
+\fbox{
+  $\Delta \phi = \dfrac{2\pi}{\lambda_0} L(BA)$
+}
+
+\raggedright
 La différence de marche est donc directement liée à la différence de phase de
   l'onde lumineuse.
+
 Au chemin optique, du à la distance parcourue (ou chemin optique
 géométrique),
   il faut ajouter un chemin optique lié à la différence de phase induite par les
@@ -307,25 +325,36 @@ géométrique),
 
 ## Relations de Fresnel : déphasage lié à la nature de la réflexion sur un dioptre
 
-$$\rho_{\perp} = \dfrac{n_1 \cos{i_1} - n_2 \cos{i_2}}{n_1 \cos{i_1} + n_2
-  \cos{i_2}}$$
-$$t_{\perp} = \dfrac{2 n_1 \cos{i_1}}{n_1 \cos{i_1} + n_2
-  \cos{i_2}} > 0$$
-$$\rho_{//} = \dfrac{n_1 \cos{i_2} - n_2 \cos{i_1}}{n_1 \cos{i_2} + n_2
-  \cos{i_1}}$$
-$$t_{//} = \dfrac{2 n_1 \cos{i_1}}{n_1 \cos{i_2} + n_2
-  \cos{i_1}} > 0$$
-
-Dans le cas d'une lumière non polarisée, $\vec E$ peut être vu comme la somme
-  $\vec E_{\perp} + \vec E_{//}$.
+Dans le cas d'une lumière non polarisée, $\overrightarrow E$ peut être vu comme la somme
+  $\overrightarrow E_{\perp} + \overrightarrow E_{//}$.
   Comme $t_{//} \text{ et } t_{\perp}$ sont toujours positifs, il n'y a pas de
   différence de phase entre l'onde incidente et l'onde transmise $\forall n_1,
   n_2$.
 
+\centering
+\fbox{
+$\rho_{\perp} = \dfrac{n_1 \cos{i_1} - n_2 \cos{i_2}}{n_1 \cos{i_1} + n_2
+  \cos{i_2}}$
+}
+\fbox{
+$t_{\perp} = \dfrac{2 n_1 \cos{i_1}}{n_1 \cos{i_1} + n_2
+  \cos{i_2}} > 0$
+}
+
+\fbox{
+$\rho_{//} = \dfrac{n_1 \cos{i_2} - n_2 \cos{i_1}}{n_1 \cos{i_2} + n_2
+  \cos{i_1}}$
+}
+\fbox{
+$t_{//} = \dfrac{2 n_1 \cos{i_1}}{n_1 \cos{i_2} + n_2
+  \cos{i_1}} > 0$
+}
+
+\raggedright
 Lorsque l'on trace les coefficients de réflexion en amplitude pour les deux
   polarisations en fonction de l'onde d'incidence $i_1$, on constate qu'ils sont
-  tous deux positifs si $n_1 > n_2$ pour un angle d'incidence suffisamment
-  proche de la normale. Ainsi, il n'y a pas de déphasage sur $\vec E$.
+  tout deux positifs si $n_1 > n_2$ pour un angle d'incidence suffisamment
+  proche de la normale. Ainsi, il n'y a pas de déphasage sur $\overrightarrow E$.
 
 En revanche, $\rho_{//} \text{ et } \rho_{\perp}$ sont négatifs pour un angle
   d'incidence proche de la normale lorsque $n_1 < n_2$. Ainsi, la réflexion sur
@@ -338,16 +367,16 @@ En revanche, $\rho_{//} \text{ et } \rho_{\perp}$ sont négatifs pour un angle
 Lors de la réflexion d'un champ sans déphasage venant d'un milieu
   matériel sur un milieu matériel ce champ est réfléchi avec le même sens que
   le champ incident.
-  Dans un métal, $\vec E = \vec 0$.
+  Dans un métal, $\overrightarrow E = \overrightarrow 0$.
 
-Comme précédemment, le champ électrique $\vec E$ peut être vu comme la somme de
-  deux composantes : $\vec E_{\perp} + \vec E_{//}$.
-  La réflexion sur un matériel moins réfringent se fait sans déphasage.
+Comme précédemment, le champ électrique $\overrightarrow E$ peut être vu comme la somme de
+  deux composantes : $\overrightarrow E_{\perp} + \overrightarrow E_{//}$.
+  La réflexion sur un matériel moins réfringent se fait **sans déphasage**.
   Cependant, on observe le changement d'une coordonnée aussi bien pour le
-  vecteur $\vec k$ que pour le vecteur $\vec E$, soit $z$ si le plan $Oxy$ est
+  vecteur $\overrightarrow k$ que pour le vecteur $\overrightarrow E$, soit $z$ si le plan $Oxy$ est
   le plan du dioptre et l'axe $Oz$ la normale au plan.
 
   Par rapport au déphasage nul, le déphasage de $\pi$ à la réflexion sur un
-  métal implique bien le changement des trois coordonnées cartésiennes de $\vec
+  métal implique bien le changement des trois coordonnées cartésiennes de $\overrightarrow
   E$. Mais uniquement de deux coordonnées entre champ incident et champ
   réfléchit.
