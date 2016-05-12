@@ -14,24 +14,26 @@ Pour les systèmes interférentiels à division du front d'onde, la source prima
 doit être quasi-ponctuelle ou très fine pour qu'il y ait cohérence entre les
 ondes émises. La conséquence est que les figures d'interférence sont
 relativement peu lumineuses.
-Pour qu'il y ai une interférence entre deux ondes, il faut que leur déphasage en
+
+Pour qu'il y ait une interférence entre deux ondes, il faut que leur déphasage en
 un point $M$ d'observation des interférences soit tel que :
 $$\phi = \phi_1 - \phi_2 = \dfrac{2\pi}{\lambda_0}\delta =
 \dfrac{2\pi}{\lambda_0}([SS_1M] - [SS_2M]) = \text{ constante}$$
 
 Ainsi si la source ponctuelle primaire $S$ est déplacée de
-$\vec \Delta S = \vec{S S'}$, les chemins optiques $[SS_1M] \text{ et } [SS_2M]$
+$\vec{\Delta S} = \vec{S S'}$, les chemins optiques $[SS_1M] \text{ et } [SS_2M]$
 varient respectivement de
-$n \vec \Delta S . \vec u_1 \text { et } n \vec \Delta S . \vec u_1$
+$n \vec{\Delta S} . \vec u_1 \text { et } n \vec{\Delta S} . \vec u_1$
 avec $u_1$ et $u_2$ les vecteurs unitaires portés par les directions de
 propagation des ondes.
+
 La variation de phase $\Delta \phi$ correspondant au déplacement de la source
 $S$ est donc :
-$$\Delta \phi = dfrac{2\pi}{\lambda_0} n \vec \Delta S (\vec u_1 - \vec u_2)$$
+$$\Delta \phi = \dfrac{2\pi}{\lambda_0} n \vec{\Delta S} (\vec u_1 - \vec u_2)$$
 Deux cas de figure se présentent alors pour maintenir un déphasage $\Delta \phi$
 nul lorsque la source primaire se déplace :
 
-* $\vec \Delta S \perp (\vec u_1 - \vec u_2)$ c'est la propriété exploitée
+* $\vec{\Delta S} \perp (\vec u_1 - \vec u_2)$ c'est la propriété exploitée
   dans les systèmes interférentiels par division du front d'onde lorsque l'on
   passe d'une source ponctuelle à une fente fine, étendue dans la direction
   perpendiculaire au plan des ondes interférants.
@@ -49,6 +51,8 @@ franges d'interférences :
 * la lame mince dite en coin dont les dioptres forment un angle $\alpha$ très
   petit.
 
+\newpage
+
 # Localisation des franges
 
 ## La lame à face parallèle
@@ -60,6 +64,8 @@ permettent de renforcer la figure d'interférence. Celle-ci se forme à l'infini
 compte tenue du parallélisme des ondes interférantes issus de la lame mince. On
 dit que les interférences sont **localisés à l'infini**.
 
+![Dispositif des lames à faces parallèles](img/lames_paralleles.png)
+
 ## La lame en coin
 
 Lorsque la lame est éclairée en incidence proche de la normale au dioptre
@@ -68,14 +74,20 @@ rayons issus de la réflexion ou de la transmission par la lame mince est plus o
 moins proche de celle-ci. On dit que les interférences sont **localisés dans
 l'espace**.
 
+![Dispositif des lames en coin](img/lames_coin.png)
+
+\newpage
+
 # Déphasage introduit par une lame
 
 Bien que la démonstration qui suive sois illustrée par le cas d'une lame mince
-parallèle, elle reste valable localement pour la lame épaisseur non uniforme,
+parallèle, elle reste valable localement pour la lame d'épaisseur non uniforme,
 appelée lame en coin.
+
 Soit une lame mince transparente d'indice $n$ à face parallèle d'épaisseur $e$
 plongée dans un milieu d'indice $n_0$.
-Soit une onde plane dont on considère que l'amplitude est égale à 1 se
+
+Soit une onde plane, dont on considère que l'amplitude est égale à 1, se
 propageant dans le milieu d'indice $n_0$ avec une incidence proche de la normale
 au dioptre de la lame mince. Cette onde crée une infinité d'ondes réfléchis et
 transmises par la lame mince.
@@ -87,9 +99,9 @@ les dioptres 1 et 2 :
 * $\rho_1 = \dfrac{n_0 - n}{n_0 + n}$ et $\rho_2 = \dfrac{n - n_0}{n_0 + n}$
 * $\tau_1 = \dfrac{2 n_0}{n_0 + n}$ et $\tau_2 = \dfrac{2 n}{n_0 + n}$
 
-Deux relations sont à prendre en compte entre ces quatres coefficients :
+Deux relations sont à prendre en compte entre ces quatre coefficients :
 
-* $$\rho_1 = - \rho_2$$
+* $\rho_1 = - \rho_2$
 * La deuxième est issue du théorème de conservation de l'énergie appliqué en un
   point du dioptre : $R + T = 1$ avec $R$ le coefficient de réflexion en
   énergie et $T$ le coefficient de transmission en énergie.
@@ -106,17 +118,19 @@ $$\rho_1 = - \rho_2 = -\rho < 0$$
 $$\tau_1 \tau_2 = 1 - \rho^2$$
 
 Les amplitudes des quatre premières ondes réfléchies sont :
-$$\rho_1, \tau_1 . \tau_2 . \rho_2, \tau_1 . \tau_2 . {\rho_2}^3,
+$$\rho_1, \tau_1 . \tau_2 . \rho_2, \tau_1 . \tau_2 . {\rho_2}^3 \text{ et }
 \tau_1 . \tau_2 . {\rho_2}^5$$
 
 En appliquant les relations réécrites :
 $$-\rho, (1 - \rho^2)\rho, (1 - \rho^2)\rho^3 \text{ et }(1 - \rho^2) \rho^5$$
 
 De la même façon, les amplitudes des quatre premières ondes transmises sont :
-$$\tau_1 . \tau_2, \tau_1 . \tau_2 . {\rho_2}^2, \tau_1 . \tau_2 . {\rho}^4,
-\tau_1 . \tau_2 . {\rho_2}^6$$
-$$\text{soit }(1 - \rho^2), (1 - \rho^2)\rho^2, (1 - \rho^2) \rho^4,
+$$\tau_1 . \tau_2, \tau_1 . \tau_2 . {\rho_2}^2, \tau_1 . \tau_2 . {\rho}^4
+\text{ et } \tau_1 . \tau_2 . {\rho_2}^6$$
+$$\text{soit }(1 - \rho^2), (1 - \rho^2)\rho^2, (1 - \rho^2) \rho^4 \text{ et }
 (1 - \rho^2) \rho^6$$
+
+\newpage
 
 Dans le cas des dioptres non traités pour augmenter leur coefficient de
 réflexion, $\rho$ est très inférieur à 1. Ainsi seul les deux premières ondes
@@ -153,9 +167,12 @@ La différence de marche géométrique entre les ondes transmises $\delta_t$ est
 telle que :
 $$\delta_t = [J_1 I_2 J_2] - [J_1 H]$$
 $$\delta_t = 2 e n \cos r $$
+
 Si $n_0 < n$, il n'y a aucun déphasage lié à la nature des dioptres pour les
-deux ondes transmises. Si $n_0 > n$, un premier déphasage de $\pi$ se produit en
-$J_1$, un deuxième en $I_2$ pour l'onde transmise en $J_2$. Dans les deux cas,
+deux ondes transmises. 
+
+Si $n_0 > n$, un premier déphasage de $\pi$ se produit en $J_1$,
+un deuxième en $I_2$ pour l'onde transmise en $J_2$. Dans les deux cas,
 les deux ondes transmises ne présentent pas de déphasage supplémentaire lié à la
 nature des dioptres.
 $$\delta_{\text{tot}t} = 2 e n \cos r
@@ -304,7 +321,7 @@ $$\delta_{\text{t tot}} = 2 e n \cos{r}$$
 On a donc :
 
 $$\phi_r = \dfrac{2\pi}{\lambda_0}(2 e n \cos{r}) + (\pi)$$
-$$\phi_r = \dfrac{2\pi}{\lambda_0}(2 e n \cos{r})$$
+$$\phi_t = \dfrac{2\pi}{\lambda_0}(2 e n \cos{r})$$
 
 L'intensité des ondes interférentes en un point de la surface de localisation
   des franges est
@@ -428,17 +445,19 @@ Les anneaux ont un rayon qui augmente avec la diminution de $e$.
 Soit une source $S$ étendue éclairant le Michelson à partir de la position de
 contact optique, où $M_1$ est le symétrique de $M_2$ par rapport à la
 séparatrice. On incline le $M_2$ de $\alpha$ très petit, les interférences sont
-localisés à proximité du coin d'air. Au voisinnage de 'intersection de $M_1$ et
+localisés à proximité du coin d'air.
+
+Au voisinnage de l'intersection de $M_1$ et
 du mirroir virtuel $M_2'$ comme $\alpha$ est très petit, on peut considérer la
 figure d'interférence conduit dans un plan qui est le plan des miroirs. Compte
 tenu de la localisation des interférences dans le plan des miroirs celles-ci
 pourront être observés soit directement à l'oeil nu en acommodant dans ce plan,
 soit en formant l'image du plan des miroirs par une lentille mince convergente
 (observation dans le plan conjugué du plan des miroirs par la lentille et pas
-dans le plan focal image). Au voisinnage des miroirs, la différencede marche
+dans le plan focal image). Au voisinnage des miroirs, la différence de marche
 entre les rayons interférents vaut $\delta = 2 e$ avec $e$ l'épaisseur de la
 lame au point d'observation. L'épaisseur de la lame dépend uniquement du point
 observé et de sa distance $X$ par rapport à l'intersection des miroirs.
 En effet pour $\alpha$ très petit, $e \approx \alpha X
 \Rightarrow \delta \approx 2 \alpha X$ et $i_f = \dfrac{\lambda_0}{2 \alpha}$ 
-car $\delta + \lambda_0 \approx 2 \alpha(X + i_f)$
+car $\delta + \lambda_0 \approx 2 \alpha(X + i_f)$.

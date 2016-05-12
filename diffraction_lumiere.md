@@ -3,6 +3,7 @@
 title: Diffraction de la lumière
 author: Romain Gille
 date: 10/05/2016
+geometry: margin=1in
 ...
 
 # Mise en évidence expérimentale

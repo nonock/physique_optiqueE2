@@ -6,6 +6,8 @@ geometry : margin=1in
 date: 03/05/2016
 ...
 
+\newpage
+
 # Introduction
 
 Les interférences d'ondes multiples peuvent être obtenues par division
@@ -40,7 +42,9 @@ $$R_1 = R_2 = R$$
 
 Compte tenu de la loi de conservation de l'énergie, on a pour des milieux
 transparents (sans absorption) $R + T = 1$ considérant une amplitude $a$ de
-l'onde incidente, les amplitudes des ondes transmises sont $a \tau_1 \tau_2$,
+l'onde incidente, les amplitudes des ondes transmises sont 
+
+$a \tau_1 \tau_2$,
 $a \rho_2^2 \tau_1 \tau_2$, $a \rho_2^4 \tau_1 \tau_2$ et
 $a \rho_2^6 \tau_1 \tau_2$.
 
@@ -50,9 +54,11 @@ Soit $\vec E$ le champ électrique de l'onde résultant des interférences
 (à l'infini) d'ondes multiples dont les champs sont $\vec E_1$, $\vec E_2$,
 $\vec E_3$, ... on a $\vec{E} = \vec{E_1} + \vec{E_2} + \vec{E_3} + ...$
 
-$$\vec{E_1} = a T \exp{j \phi_0} \exp{-j \omega t} \vec u$$
-$$\vec{E_2} = a T R \exp{j [\phi_0 + \phi] } \exp{-j \omega t} \vec u$$
-$$\vec{E_3} = a T R^2 \exp{j [\phi_0 + 2 \phi] } \exp{-j \omega t} \vec u$$
+\newpage
+
+$$\vec{E_1} = a T \exp{(j \phi_0)} \exp{(-j \omega t)} \vec u$$
+$$\vec{E_2} = a T R \exp{(j [\phi_0 + \phi] )} \exp{(-j \omega t)} \vec u$$
+$$\vec{E_3} = a T R^2 \exp{(j [\phi_0 + 2 \phi] )} \exp{(-j \omega t)} \vec u$$
 
 $$\phi = \dfrac{2 \pi}{\lambda} 2 n e \cos{r}$$
 
@@ -60,34 +66,34 @@ Avec $\vec u$ le vecteur unitaire dans la direction de polarisation de
 l'ensemble des ondes transmises par la lame.
 
 Champ électrique de l'onde incidente :
-$$\vec{E_0} = a \exp{j \phi_0} \exp{-j \omega t} \vec u$$
+$$\vec{E_0} = a \exp{(j \phi_)0} \exp{(-j \omega t)} \vec u$$
 
-Soit $\underline{A_0} = a \exp{j \phi_0}$, $\underline{A_1} = a T \exp{j\phi_0}$
+Soit $\underline{A_0} = a \exp{(j \phi_0)}$, $\underline{A_1} = a T \exp{(j\phi_0)}$
 les amplitudes complexes respectives de l'onde incidente et de la première onde
 transmise.
 
 $$\underline{A} = \sum\limits_{m=1}^{m} \underline{A_m} =
-\underline{A_0} T[1 + R \exp{j \phi_0} + R^2 \exp{j 2 \phi_0} + ... +
-R^m \exp{j m \phi}]$$
+\underline{A_0} T \left[1 + R \exp{(j \phi_0)} + R^2 \exp{(j 2 \phi_0)} + ... +
+R^m \exp{(j m \phi)}\right]$$
 
 Le terme entre crochet correspond à la somme $S$ des termes d'une suite
-géométrique de premier terme $1$, de raison $\alpha = R \exp{j \phi}$ avec
+géométrique de premier terme $1$, de raison $\alpha = R \exp{(j \phi)}$ avec
 $R < 1$ et $m + 1$ termes.
 
 $$S = \dfrac{1 - \alpha^{m + 1}}{1 - \alpha}$$
 
 Avec $\alpha^{m + 1} \rightarrow 0$ quand $m \rightarrow \infty$
 
-$$A = \dfrac{\underline{A_0} T}{1 - R \exp{j \phi}}$$
+$$A = \dfrac{\underline{A_0} T}{1 - R \exp{(j \phi)}}$$
 
 $$I = \underline{E}\underline{E^*} (n = 1)$$
-$$\underline{E} = \underline{A} \exp{- j \omega t}$$
-$$\underline{E^*} = \underline{A^*} \exp{- j \omega t}$$
+$$\underline{E} = \underline{A} \exp{(- j \omega t)}$$
+$$\underline{E^*} = \underline{A^*} \exp{(- j \omega t)}$$
 $$I = \underline{A} \underline{A^*}
 = \underline{A_0} \underline{A_0^*}
-\dfrac{T^2}{(1 - R \exp{-j \phi})(1 - R \exp{j \phi})}$$
+\dfrac{T^2}{(1 - R \exp{(-j \phi)})(1 - R \exp{(j \phi)})}$$
 $$I = \underline{A_0} \underline{A_0^*}
-\dfrac{T^2}{(1 - R \exp{-j \phi})- R \exp{j \phi} + R^2}$$
+\dfrac{T^2}{(1 - R \exp{(-j \phi)})- R \exp{(j \phi)} + R^2}$$
 $$I = \underline{A_0} \underline{A_0^*}
 \dfrac{T^2}{1 - 2 R \cos{\phi} + R^2 - 2R + 2R}$$
 $$I = \underline{A_0} \underline{A_0^*}
@@ -97,10 +103,12 @@ $$I = \underline{A_0} \underline{A_0^*}
 $$I = \dfrac{a^2 T^2}{(1 - R)^2} (\dfrac{1}{1 + {4R \over (1 - R)^2}
 \sin^2{\phi \over 2}})$$
 
+\newpage
+
 Il faut noter qu'en absence d'absorption $A$, on a $T = 1 - R$ d'où
 $I_{\text{max}} = a^2 = I_0$
 
-Donc si $A \neq 0$ $I_{\text{max}} < I_0$
+Donc si $A \neq 0$, $I_{\text{max}} < I_0$
 
 $$I = \dfrac{I_{\text{max}}}{1 + M \sin^2 {\phi \over 2}}$$
 
@@ -134,7 +142,9 @@ $$\gamma \rightarrow 1 \text{ quand } R \rightarrow 1$$
 Comme pour les interférences à deux ondes, les points d'égale intensité, sont
 ceux pour lesquels $\phi$ est une constante. C'est à dire, pour une lame
 d'épaisseur constante $e$, ceux pour lesquels $r$ est une constante.
-Donc $I$ est une constante.Comme pour les anneaux d'Haidinger, la figure
+Donc $I$ est une constante.
+
+Comme pour les anneaux d'Haidinger, la figure
 d'interférence est constituée d'anneaux localisés à l'infini et peut ainsi être
 observée dans le plan focal d'une lentille convergente. Les anneaux obtenus par
 interférence d'onde multiple se distinguent des anneaux d'Haidinger par leur
