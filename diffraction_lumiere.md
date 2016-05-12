@@ -220,7 +220,8 @@ Ces nouvelles variables sont les fréquences spatiales.
 En terme d'intensité lumineuse de l'onde diffractée au point $P$ on
 obtient donc :
 
-$$I(u, v) = \dfrac{A^2}{\lambda^2 OP^2}|\iint_D I(x, y) \exp{(-j 2 \pi(ux + vy))dxdy}|^2$$
+$$I(u, v) = \dfrac{A^2}{\lambda^2 OP^2}|\iint_D I(x, y)
+\exp{(-j 2 \pi(ux + vy))dxdy}|^2$$
 
 # Transformation de Fourrier dans l'approximation de Fraunhoffer
 
@@ -261,8 +262,9 @@ $$A(P) = A \dfrac{\exp{(jk(OP - OS))}}{j \lambda OP}
 $$\int\limits_{-l/2}^{l/2} \exp{(-j2 \pi ux)}dx =
 \left[ \dfrac{\exp{(-j 2 \pi ux)}}{-j2\pi u}  \right]_{-l/2}^{l/2}$$
 $$= \dfrac{\exp{(j 2 \pi u {l \over 2}) -
-\exp{(-j 2 \pi u {l \over 2})}}{j 2 \pi u}$$
-$$= \dfrac{l2 \sin{(\pi u l)}}{lj 2 \pi u} = l \text{sinc}(\pi u l) = \cos{\theta}$$
+\exp{(-j 2 \pi u {l \over 2})}}}{j 2 \pi u}$$
+$$= \dfrac{l2 \sin{(\pi u l)}}{lj 2 \pi u} = l \text{sinc}(\pi u l) =
+\cos{\theta}$$
 
 En faisant la même chose avec la deuxième intégrale, on obtient :
 
