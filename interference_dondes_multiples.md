@@ -103,13 +103,13 @@ Soit $\underline{A_0} = a \exp{(j \phi_0)}$, $\underline{A_1} = a T \exp{(j\phi_
 les amplitudes complexes respectives de l'onde incidente et de la première onde
 transmise.
 
-$$\underline{A} = \sum\limits_{m=1}^{m} \underline{A_m} =
+$$\underline{A} = \sum\limits_{m \neq 0}^{m} \underline{A_m} =
 \underline{A_0} T \left[1 + R \exp{(j \phi_0)} + R^2 \exp{(j 2 \phi_0)} + ... +
-R^m \exp{(j m \phi)}\right]$$
+R^{m-*1} \exp{(j (m - 1) \phi)}\right]$$
 
 Le terme entre crochet correspond à la somme $S$ des termes d'une suite
 géométrique de premier terme $1$, de raison $\alpha = R \exp{(j \phi)}$ avec
-$R < 1$ et $m + 1$ termes.
+$R < 1$ et $m$ termes.
 
 \centering
 \fbox{
@@ -118,7 +118,7 @@ $R < 1$ et $m + 1$ termes.
 
 \raggedright
 
-Avec $\alpha^{m + 1} \rightarrow 0$ quand $m \rightarrow \infty$
+Avec $\alpha^{m} \rightarrow 0$ quand $m \rightarrow \infty$
 
 
 \centering
@@ -218,7 +218,7 @@ non traités.
 Le contraste de la figure d'interférence obtenu par transmission est ainsi bien
 meilleur que celui obtenu par réflexion.
 
-# Interféromètre de Falry-Pérot
+# Interféromètre de Fabry-Pérot
 
 L'interféromètre est constitué de deux lames de verre dont les faces en regard
 sont d'une grande planéité et très réfléchissantes. Elles définissent une lame
