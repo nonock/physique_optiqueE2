@@ -196,7 +196,7 @@ L'approximation de Gauss est appliquable à un système centré pour des rayons 
 * Système optique centré
 * Rayons paraxiaux
 
-Parmis des systèmes optiques stigmatiques ou stigmatiques approchés, les
+Parmi des systèmes optiques stigmatiques ou stigmatiques approchés, les
 lentilles sont des systèmes à foyer par opposition aux systèmes afocaux.
 
 Le foyer principal objet $F$ est le point objet sur l'axe optique dont l'image
@@ -358,7 +358,7 @@ Lorsque l'on trace les coefficients de réflexion en amplitude pour les deux
 
 En revanche, $\rho_{//} \text{ et } \rho_{\perp}$ sont négatifs pour un angle
   d'incidence proche de la normale lorsque $n_1 < n_2$. Ainsi, la réflexion sur
-  un milieu plus réfringent en incidence quasi-normale produit un déphasage de
+  un milieu plus réfringent en incidence quasi normale produit un déphasage de
   $\pi$.
 
 

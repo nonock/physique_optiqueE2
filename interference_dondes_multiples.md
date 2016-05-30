@@ -24,7 +24,7 @@ amplitudes similaires.
 
 ## Rappels sur les coefficients de transmission et de réflexion
 
-### Incidence quasi-normale
+### Incidence quasi normale
 
 \centering
 \fbox{
@@ -62,7 +62,7 @@ On a alors :
 
 Compte tenu de la loi de conservation de l'énergie, on a pour des milieux
 transparents (sans absorption) $R + T = 1$ considérant une amplitude $a$ de
-l'onde incidente, les amplitudes des ondes transmises sont 
+l'onde incidente, les amplitudes des ondes transmises sont
 
 $a \tau_1 \tau_2$,
 $a \rho_2^2 \tau_1 \tau_2$, $a \rho_2^4 \tau_1 \tau_2$ et

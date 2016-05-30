@@ -25,7 +25,7 @@ Les sources émettent de la lumière par suite de la désexcitation d'atomes, au
   préalable soumis à une excitation électrique, thermique ou lumineuse.
 
 L'atome excité devient un dipôle oscillant dont la charge négative est
-  l'électron, atome qui en se désexcitant émet une onde électromagnetique.
+  l'électron, atome qui en se désexcitant émet une onde électromagnétique.
 
 L'énergie rayonnée est fournie par l'énergie mécanique de l'oscillateur qui
   s'ammortit du fait de l'émission lumineuse, émission qui cesse lorsque l'atome
@@ -220,55 +220,7 @@ détection est donc
   $I_{moy} = I_{1 moy} + I_{2 moy}$
 }
 
-\raggedright
-L'intensité résultant de la superposition des deux ondes n'est alors que la
-somme de leurs intensités. On dit alors que les sources sont **incohérentes**.
-
-Si les sources présentent un déphasage $(\phi_1 - \phi_2)$ entre les trains
-d'ondes constants au cours du temps (donc si les sources sont cohérentes) mais
-également si les champs instantanés $\overrightarrow{E_1}$ et
-$\overrightarrow{E_2}$ qui varient au cours du temps forment un angle constant
-entre eux ($\cos{\Theta}$ est une constante) et différent de $\dfrac{\pi}{2}$,
-alors il y a interférence.
-
-$I_{moy} = I_{1 moy} + I_{2 moy} + 2 \sqrt{I_{1 moy} I_{2 moy}} \cos{(\Theta)}
-\cos{(k(r_1 - r_2) + (\phi_1 - \phi_2))}$ s'appelle le terme d'interférence.
-
-On a donc une distribution spatiale de l'intensité indépendante du temps et
-telle que l'ensemble des points d'égale intensité correspond à
-$(r_1 - r_2) = \text{ constante}$.
-
-Les surfaces ainsi définies sont des **hyperboloïdes**.
-L'intersection de ces surfaces avec un plan d'observation défini la figure
-d'interférences avec des franges brillantes correspondantes aux maxima
-d'intensité et des franges sombres correspondantes aux minima d'intensité.
-
-L'intersection des hyperboloïdes avec un plan perpendiculaire à l'axe
-$(S_1 S_2)$ donne un système de franges circulaires. Leurs intersections avec
-des plans parallèles à $(S_1 S_2)$ donne des hyperboles qui s'approximent par
-des portions de droites dans la zone d'observation des interférences.
-
-Les interférences entre deux ondes sont possibles si :
-
-* elles ont mêmes $\omega \text{ ou } f$
-* leur différence de phase instantanée ($\phi_1 - \phi_2$) à l'émission des
-  trains d'ondes reste constante dans le temps $\Rightarrow$ les ondes sont donc
-  cohérentes temporellement (leurs trains d'onde se superposent au point $M$).
-* leurs champs électriques instantanés bien que prenant toutes les orientations
-  possibles sur une durée suffisante pour l'observation ou la détection font
-  entre eux un angle constant et différent de $\dfrac{\pi}{2}$.
-
-La première condition est difficile à obtenir.
-Les deux suivantes sont impossibles à obtenir si les sources
-$S_1 \text{ et } S_2$ sont indépendantes.
-Le phénomène d'interférence n'est donc possible que si les sources
-$S_1 \text{ et } S_2$ dérivent de la même source primaire. On parle alors de
-cohérence mutuelle des deux sources.
-
-Compte tenue du fait que $(r_1 - r_2)$ est faible dans la zone d'obtention des
-interférences et que les sources $S_1 \text{ et } S_2$ dérivent de la même
-source primaire alors $C_1 = C_2$ et donc l'intensité lumineuse moyenne entre
-les deux ondes est négligeable.
+\raggedright L'intensité résultant de la superposition des deux ondes n'est alors que la somme de leurs intensités. On dit alors que les sources sont **incohérentes**. Si les sources présentent un déphasage $(\phi_1 - \phi_2)$ entre les trains d'ondes constants au cours du temps (donc si les sources sont cohérentes) mais également si les champs instantanés $\overrightarrow{E_1}$ et $\overrightarrow{E_2}$ qui varient au cours du temps forment un angle constant entre eux ($\cos{\Theta}$ est une constante) et différent de $\dfrac{\pi}{2}$, alors il y a interférence. $I_{moy} = I_{1 moy} + I_{2 moy} + 2 \sqrt{I_{1 moy} I_{2 moy}} \cos{(\Theta)} \cos{(k(r_1 - r_2) + (\phi_1 - \phi_2))}$ s'appelle le terme d'interférence. On a donc une distribution spatiale de l'intensité indépendante du temps et telle que l'ensemble des points d'égale intensité correspond à $(r_1 - r_2) = \text{ constante}$. Les surfaces ainsi définies sont des **hyperboloïdes**. L'intersection de ces surfaces avec un plan d'observation défini la figure d'interférences avec des franges brillantes correspondantes aux maxima d'intensité et des franges sombres correspondantes aux minima d'intensité. L'intersection des hyperboloïdes avec un plan perpendiculaire à l'axe $(S_1 S_2)$ donne un système de franges circulaires. Leurs intersections avec des plans parallèles à $(S_1 S_2)$ donne des hyperboles qui s'approximent par des portions de droites dans la zone d'observation des interférences. Les interférences entre deux ondes sont possibles si : * elles ont mêmes $\omega \text{ ou } f$ * leur différence de phase instantanée ($\phi_1 - \phi_2$) à l'émission des trains d'ondes reste constante dans le temps $\Rightarrow$ les ondes sont donc cohérentes temporellement (leurs trains d'onde se superposent au point $M$). * leurs champs électriques instantanés bien que prenant toutes les orientations possibles sur une durée suffisante pour l'observation ou la détection font entre eux un angle constant et différent de $\dfrac{\pi}{2}$. La première condition est difficile à obtenir. Les deux suivantes sont impossibles à obtenir si les sources $S_1 \text{ et } S_2$ sont indépendantes. Le phénomène d'interférence n'est donc possible que si les sources $S_1 \text{ et } S_2$ dérivent de la même source primaire. On parle alors de cohérence mutuelle des deux sources. Compte tenue du fait que $(r_1 - r_2)$ est faible dans la zone d'obtention des interférences et que les sources $S_1 \text{ et } S_2$ dérivent de la même source primaire alors $C_1 = C_2$ et donc l'intensité lumineuse moyenne entre les deux ondes est négligeable.
 
 \centering
 \fbox{
@@ -321,7 +273,7 @@ intensité lumineuse correspondent donc à $p = \text{constante}$.
 De plus $I = I_{max}$ pour $p$ entier et $I = I_{min}$ pour $p$ demi entier.
 
 Le contraste (ou module de la visibilité) des franges d'interférence est défini
-par 
+par
 
 \centering
 \fbox{

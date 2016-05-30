@@ -11,7 +11,7 @@ date: 29/03/2016
 # Généralités
 
 Pour les systèmes interférentiels à division du front d'onde, la source primaire
-doit être quasi-ponctuelle ou très fine pour qu'il y ait cohérence entre les
+doit être quasi ponctuelle ou très fine pour qu'il y ait cohérence entre les
 ondes émises. La conséquence est que les figures d'interférence sont
 relativement peu lumineuses.
 
@@ -167,7 +167,7 @@ Par ailleurs, les deux ondes réfléchies ayant des amplitudes plus proches que
 les ondes transmises, le contraste de la figure d'interférence obtenu par
 réflexion est meilleur que celui obtenu par transmission.
 
-$$\delta = [I_1 J_1 I_2] - [I_1 H] \text{ (rayon } 2 - \text{ rayon 1)}$$
+$$\delta = [I_1 J_1 I_2] - [I_1 H] (\text{ rayon } 2 - \text{ rayon 1})$$
 $$I_1 J_1 = \dfrac{e}{\cos r}$$
 $$[I_1 J_1 I_2] = n \dfrac{2 e}{\cos r}$$
 $$I_1 H = I_1 I_2 \sin i$$
@@ -211,7 +211,7 @@ $$\delta_t = [J_1 I_2 J_2] - [J_1 H]$$
 \raggedright
 
 Si $n_0 < n$, il n'y a aucun déphasage lié à la nature des dioptres pour les
-deux ondes transmises. 
+deux ondes transmises.
 
 Si $n_0 > n$, un premier déphasage de $\pi$ se produit en $J_1$,
 un deuxième en $I_2$ pour l'onde transmise en $J_2$. Dans les deux cas,
@@ -230,7 +230,7 @@ Il y a inversion des franges sombres et brillantes d'une figure à l'autre.
 }
 
 \raggedright
-La différence de marche géométrique en rélflexion comme en trasmission vaut
+La différence de marche géométrique en réflexion comme en transmission vaut
 $\delta_{\text{géo}} = 2 n e \cos r$. À cette différence de marche géométrique,
 il faut ajouter celle associée au déphasage lié à la nature du dioptre que l'on
 appellera différence de marche physique.
@@ -239,15 +239,15 @@ appellera différence de marche physique.
 
 Cette figure d'interférence est obtenue à partir d'une lame mince à face
 parallèle éclairée par une source monochromatique étendue. Les deux ondes
-issuent de la réflexion ou de la transmission par la lame ne sont pas de même
+issues de la réflexion ou de la transmission par la lame ne sont pas de même
 amplitude donc elles ne sont pas de même intensité.
 L'expression de l'intensité des interférences vu dans le chapitre sur les
 interférences à deux ondes est :
 $$I = I_1 + I_2 + 2 \sqrt{I_1 I_2} \cos \theta \cos{(\phi_1 - \phi_2)}$$
 
-Avec $\theta$ l'angle entre les champs électriques des deux ondes issuent des
+Avec $\theta$ l'angle entre les champs électriques des deux ondes issues des
 sources secondaires. Ces ondes provenant de la réflexion et de la transmission
-par une lame à face parallèle sont parallèles entre-elles
+par une lame à face parallèle sont parallèles entre elles
 $\Rightarrow \cos \theta = 1$.
 $$I = I_1 + I_2 + 2 \sqrt{I_1 I_2} \cos \phi$$
 $$\phi = \dfrac{2\pi}{\lambda_0}(2 e n \cos r + \delta \phi)$$
@@ -267,7 +267,7 @@ interférences produites par des rayons parallèles entre eux.
 ## Interféromètre de Michelson : utilisation en lames d'air
 
 L'interféromètre de Michelson est constitué de deux miroirs $M_1$ et $M_2$,
-d'une lame de verre avec une face métallisée pour être semi-réfléchissante
+d'une lame de verre avec une face métallisée pour être semi réfléchissante
 appelée lame séparatrice $L_S$ et d'une lame transparente de même indice et de
 même épaisseur que $L_S$ appelée lame compensatrice $L_C$.
 La lame compensatrice permet comme con nom l'indique de compenser le nombre de
@@ -360,7 +360,7 @@ Ainsi, lorsque $e$ diminue, $\cos{i}$ augmente, donc $i$ diminue. Lorsque $e$
   l'on réalise **le contact optique** et obtenue la **teinte plate**.
 
 Si on considère le cas général où l'ordre d'interférence au centre $p_0$ n'est
-ni entier (pas un point brillant), ni demi-entier (pas un point sombre), on peut
+ni entier (pas un point brillant), ni demi entier (pas un point sombre), on peut
 exprimer $p_0$ par $p_0 = m_0 + \epsilon$ avec $0 \leq \epsilon < 1$.
 
 L'ordre d'interférence du premier anneau brillant est donc $m_0$.
@@ -403,8 +403,6 @@ On a donc :
 \fbox{
   $\phi_t = \dfrac{2\pi}{\lambda_0}(2 e n \cos{r})$
 }
-
-
 
 L'intensité des ondes interférentes en un point de la surface de localisation
   des franges est
@@ -585,7 +583,7 @@ donné, correspond un ordre d'interférence :
 
 \raggedright
 
-Ainsi, lorsque $p$ diminue, c'est à dire lorque $e_0$ diminue,
+Ainsi, lorsque $p$ diminue, c'est à dire lorsque $e_0$ diminue,
 **$\rho$ augmente**. Les anneaux ont un rayon qui augmente avec la diminution de
 $e$.
 
@@ -596,14 +594,14 @@ contact optique, où $M_1$ est le symétrique de $M_2$ par rapport à la
 séparatrice. On incline $M_2$ d'un angle $\alpha$ très petit, les interférences
 sont localisées à proximité du coin d'air.
 
-Au voisinnage de l'intersection de $M_1$ et du mirroir virtuel $M_2'$, comme
+Au voisinage de l'intersection de $M_1$ et du miroir virtuel $M_2'$, comme
 $\alpha$ est très petit, on peut considérer la figure d'interférence conduit
 dans un plan qui est le plan des miroirs. Compte tenu de la localisation des
 interférences dans le plan des miroirs celles-ci pourront être observés soit
-directement à l'oeil nu en acommodant dans ce plan, soit en formant l'image du
+directement à l'\oe il nu en accommodant dans ce plan, soit en formant l'image du
 plan des miroirs par une lentille mince convergente (observation dans le plan
 conjugué du plan des miroirs par la lentille et pas dans le plan focal image).
-Au voisinnage des miroirs, la différence de marche entre les rayons interférents
+Au voisinage des miroirs, la différence de marche entre les rayons interférents
 vaut $\delta = 2 e$ avec $e$ l'épaisseur de la lame au point d'observation.
 L'épaisseur de la lame dépend uniquement du point observé et de sa distance $X$
 par rapport à l'intersection des miroirs. En effet pour $\alpha$ très petit,

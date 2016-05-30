@@ -236,7 +236,7 @@ brouillage des franges d'interférence.
 
 On peut ainsi expliciter la largeur de cohérence spatiale $l_s$ présentée au
 chapitre précédent comme étant dans le cas des fentes d'Young la largeur de
-fente $l_f$ pour laquelle le contraste s'annule. 
+fente $l_f$ pour laquelle le contraste s'annule.
 
 On a :
 
